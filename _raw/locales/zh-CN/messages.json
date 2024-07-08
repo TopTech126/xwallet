@@ -107,13 +107,13 @@
           "more": "更多",
           "manageAddress": "管理地址",
           "nft": "NFT",
-          "rabbyPoints": "Rabby Points"
+          "rabbyPoints": "Lux Points"
         },
         "comingSoon": "即将推出",
         "soon": "很快",
         "flip": "切换",
-        "metamaskIsInUseAndRabbyIsBanned": "正在使用 MetaMask，禁用 Rabby",
-        "rabbyIsInUseAndMetamaskIsBanned": "正在使用 Rabby，禁用 Metamask",
+        "metamaskIsInUseAndRabbyIsBanned": "正在使用 MetaMask，禁用 Lux",
+        "rabbyIsInUseAndMetamaskIsBanned": "正在使用 Lux，禁用 Metamask",
         "refreshTheWebPageToTakeEffect": "刷新网页即可生效",
         "transactionNeedsToSign": "笔交易需要签名",
         "transactionsNeedToSign": "笔交易需要签名",
@@ -138,7 +138,7 @@
         "metamaskTooltip": "你选择在该 Dapp 优先使用 MetaMask。\n你可在 “更多” > “优先使用MetaMask连接的Dapp” 中更新此设置",
         "notConnected": "未连接",
         "connected": "已连接",
-        "connectedDapp": "Rabby 未连接到当前 Dapp。请在 Dapp 网页上单击连接按钮",
+        "connectedDapp": "Lux 未连接到当前 Dapp。请在 Dapp 网页上单击连接按钮",
         "noDappFound": "未找到 Dapp",
         "disconnectAll": "全部断开",
         "disconnectRecentlyUsed": {
@@ -167,19 +167,19 @@
         "claimSuccess": "领取成功",
         "enterClaimCode": "输入邀请码",
         "goToSwap": "完成兑换",
-        "imageLabel": "Rabby Badge",
+        "imageLabel": "Lux Badge",
         "learnMoreOnDebank": "跳转至 DeBank 领取",
         "noCode": "你尚未激活该地址的邀请码",
-        "rabbyValuedUserNo": "Rabby Valued User No.{{num}}",
+        "rabbyValuedUserNo": "Lux Valued User No.{{num}}",
         "swapTip": "你需要先在 Lux Wallet 中完成一笔与知名dex的兑换",
-        "title": "领取 Rabby Badge",
+        "title": "领取 Lux Badge",
         "viewOnDebank": "在 DeBank 上查看",
         "viewYourClaimCode": "查看你的邀请码",
         "freeGasTitle": "领取免费 Gas 徽章",
         "freeGasTip": "请使用免费 Gas 签署交易。当您的 Gas 不足时，“免费 Gas”按钮将自动出现。",
         "learnMore": "了解更多",
         "freeGasNoCode": "请点击下方按钮访问 DeBank，并首先使用您当前的地址获取领取代码。",
-        "rabbyFreeGasUserNo": "Rabby Free Gas 用户 No.{{num}}"
+        "rabbyFreeGasUserNo": "Lux Free Gas 用户 No.{{num}}"
       },
       "security": {
         "comingSoon": "更多功能即将推出",
@@ -197,9 +197,9 @@
         "autoLockTime": "自动锁定时间",
         "backendServiceUrl": "后端服务网址",
         "cancel": "取消",
-        "claimRabbyBadge": "领取 Rabby Badge",
+        "claimRabbyBadge": "领取 Lux Badge",
         "clearPending": "清除待完成交易",
-        "clearPendingTip1": "这将清除你所有待完成的交易。这可以帮助你解决在某些情况下 Rabby 中的交易状态与链上状态不匹配的问题。",
+        "clearPendingTip1": "这将清除你所有待完成的交易。这可以帮助你解决在某些情况下 Lux 中的交易状态与链上状态不匹配的问题。",
         "clearPendingTip2": "这不会改变你帐户中的余额，也不会要求你重新输入助记词。你的所有资产和帐户信息都将保持安全。",
         "clearWatchAddressContent": "你确定删除所有观察地址吗？",
         "clearWatchMode": "清除观察地址",
@@ -207,7 +207,7 @@
         "disableWhitelist": "关闭转账白名单",
         "disableWhitelistTip": "关闭后你可以将资产发送到任何地址",
         "enableWhitelist": "启用转账白名单",
-        "enableWhitelistTip": "启用后，你只能使用 Rabby 向白名单中的地址发送资产",
+        "enableWhitelistTip": "启用后，你只能使用 Lux 向白名单中的地址发送资产",
         "features": {
           "connectedDapp": "已连接的 Dapp",
           "label": "功能",
@@ -248,13 +248,13 @@
         },
         "warning": "警告",
         "requestDeBankTestnetGasToken": "获取 DeBank Testnet Gas Token",
-        "claimFreeGasBadge": "领取 Rabby Free Gas 徽章！"
+        "claimFreeGasBadge": "领取 Lux Free Gas 徽章！"
       },
       "tokenDetail": {
         "blockedTip": "已隐藏的代币将不会显示在代币列表中",
         "blocked": "隐藏",
-        "selectedCustom": "Rabby 未支持该代币。\n你已手动添加该代币",
-        "notSelectedCustom": "Rabby 未支持该代币。\n你可以手动添加该代币",
+        "selectedCustom": "Lux 未支持该代币。\n你已手动添加该代币",
+        "notSelectedCustom": "Lux 未支持该代币。\n你可以手动添加该代币",
         "customized": "添加",
         "scamTx": "诈骗交易",
         "txFailed": "失败",
@@ -419,14 +419,14 @@
           "answer": "用于控制你的资产的 12、18 或 24 个单词的短语。"
         },
         "isItSafeToImportItInRabby": {
-          "question": "在 Rabby 中导入它安全吗？",
+          "question": "在 Lux 中导入它安全吗？",
           "answer": "是的，它将存储在你本地的浏览器上，并且只有你可以访问。"
         },
         "importError": "[CreateMnemonics] 意外步骤 {{0}}",
         "importQuestion1": "如果我丢失了助记词，我的资产将永远丢失。",
         "importQuestion2": "如果我与他人分享我的助记词，我的资产就会被盗。",
-        "importQuestion3": "助记词仅存储在我的计算机上，Rabby 无权访问它。",
-        "importQuestion4": "如果我在未备份助记词的情况下卸载 Rabby，Rabby 无法为我找回助记词。",
+        "importQuestion3": "助记词仅存储在我的计算机上，Lux 无权访问它。",
+        "importQuestion4": "如果我在未备份助记词的情况下卸载 Lux，Lux 无法为我找回助记词。",
         "riskTips": "在开始之前，请阅读并牢记以下安全提示",
         "showSeedPhrase": "创建助记词",
         "backup": "备份助记词",
@@ -456,12 +456,12 @@
       },
       "metamask": {
         "step1": "从 MetaMask 导出助记词或私钥  <br/><1>查看操作指南<1/></1>",
-        "step2": "在 Rabby 中导入助记词或私钥",
+        "step2": "在 Lux 中导入助记词或私钥",
         "step3": "导入完成，你的所有资产将自动展示<br />",
         "how": "如何导入我的 MetaMask 帐户？",
         "step": "步骤",
         "importSeedPhrase": "导入助记词或私钥",
-        "importSeedPhraseTips": "它只会存储在本地浏览器上。 \nRabby 永远不会访问你的私人信息。",
+        "importSeedPhraseTips": "它只会存储在本地浏览器上。 \nLux 永远不会访问你的私人信息。",
         "tipsDesc": "你的私钥和助记词不属于MetaMask或者某个具体钱包，它只属于你自己。",
         "tips": "Tips:"
       },
@@ -473,7 +473,7 @@
           "answer": "用于控制你的资产的一串字符。"
         },
         "isItSafeToImportItInRabby": {
-          "question": "在 Rabby 中导入它安全吗？",
+          "question": "在 Lux 中导入它安全吗？",
           "answer": "是的，它将存储在你本地的浏览器上，并且只有你可以访问。"
         },
         "isItPossibleToImportKeystore": {
@@ -489,9 +489,9 @@
       "importedSuccessfully": "导入成功",
       "ledger": {
         "title": "连接Ledger",
-        "cameraPermissionTitle": "允许Rabby访问相机",
-        "cameraPermission1": "在浏览器弹出窗口中允许Rabby访问摄像头",
-        "allowRabbyPermissionsTitle": "允许 Rabby 获取以下权限：",
+        "cameraPermissionTitle": "允许Lux访问相机",
+        "cameraPermission1": "在浏览器弹出窗口中允许Lux访问摄像头",
+        "allowRabbyPermissionsTitle": "允许 Lux 获取以下权限：",
         "ledgerPermission1": "连接到 HID 设备",
         "ledgerPermissionTip": "请点击下面的“允许”，并在弹出窗口中授权访问你的 Ledger",
         "permissionsAuthorized": "权限已授权",
@@ -500,12 +500,12 @@
       },
       "keystone": {
         "title": "连接Keystone",
-        "allowRabbyPermissionsTitle": "允许Rabby访问以下权限：",
+        "allowRabbyPermissionsTitle": "允许Lux访问以下权限：",
         "keystonePermission1": "连接至USB设备",
         "keystonePermissionTip": "请点击下方的“允许”，并在弹出窗口中授权访问您的 Keystone",
         "noDeviceFoundError": "请插入一个Keystone",
         "deviceIsLockedError": "输入密码以解锁",
-        "deviceRejectedExportAddress": "请批准与 Rabby 的连接",
+        "deviceRejectedExportAddress": "请批准与 Lux 的连接",
         "deviceIsBusy": "设备正在忙碌中",
         "exportAddressJustAllowedOnHomePage": "仅在 Keystone 主页上允许导出地址",
         "unknowError": "未知错误，请再试一次"
@@ -552,14 +552,14 @@
       },
       "hd": {
         "tooltip": {
-          "removed": "该地址已从 Rabby 中删除",
-          "added": "地址已添加至Rabby",
+          "removed": "该地址已从 Lux 中删除",
+          "added": "地址已添加至Lux",
           "connectError": "连接已停止\n请刷新页面以重新连接",
           "disconnected": "无法连接到硬件钱包\n请尝试重新连接"
         },
         "waiting": "加载中",
         "clickToGetInfo": "点击获取链上信息",
-        "addToRabby": "添加到 Rabby",
+        "addToRabby": "添加到 Lux",
         "basicInformation": "基本信息",
         "addresses": "地址",
         "loadingAddress": "正在加载 {{0}}/{{1}} 地址",
@@ -666,7 +666,7 @@
         "manageBitbox02": "管理 BitBox02",
         "done": "完成",
         "addressesIn": "{{0}} 中的地址",
-        "addressesInRabby": "Rabby 中的地址{{0}}",
+        "addressesInRabby": "Lux 中的地址{{0}}",
         "qrCode": {
           "switch": {
             "title": "切换到新的 {{0}} 设备",
@@ -701,7 +701,7 @@
     "activities": {
       "signedText": {
         "empty": {
-          "desc": "所有通过 Rabby 签署的文本都将在此展示",
+          "desc": "所有通过 Lux 签署的文本都将在此展示",
           "title": "尚未签署文本"
         },
         "label": "签署文本"
@@ -716,7 +716,7 @@
           "unlimited": "无限"
         },
         "empty": {
-          "desc": "所有通过 Rabby 签署的交易都将在此展示",
+          "desc": "所有通过 Lux 签署的交易都将在此展示",
           "title": "尚未签署交易"
         },
         "explain": {
@@ -796,11 +796,11 @@
       "balance": "余额",
       "noTokenFound": "未找到代币",
       "noTokenFoundOnThisChain": "该链上未找到代币",
-      "title": "添加代币至 Rabby",
+      "title": "添加代币至 Lux",
       "tokenCustomized": "当前代币已手动添加",
       "tokenNotFound": "该合约地址上未找到代币",
       "tokenOnMultiChains": "多链上的代币地址，\n请选择一个",
-      "tokenSupported": "Rabby 已支持该代币"
+      "tokenSupported": "Lux 已支持该代币"
     },
     "approvals": {
       "RevokeApprovalModal": {
@@ -879,7 +879,7 @@
       "blocked": "黑名单",
       "connectBtn": "连接",
       "flagByMM": "被 MetaMask 标记为风险网址",
-      "flagByRabby": "被 Rabby 标记为风险网址",
+      "flagByRabby": "被 Lux 标记为风险网址",
       "flagByScamSniffer": "被 ScamSniffer 标记为风险网址",
       "foundForbiddenRisk": "检测到高危风险，\n无法连接",
       "listedBy": "收录于",
@@ -903,7 +903,7 @@
       "sitePopularity": "网站热度",
       "title": "连接 Dapp",
       "trusted": "白名单",
-      "verifiedByRabby": "经 Rabby 验证",
+      "verifiedByRabby": "经 Lux 验证",
       "SignTestnetPermission": {
         "title": "签名权限"
       },
@@ -915,7 +915,7 @@
       "Confirm": "确认",
       "Continue": "继续",
       "Including-service-fee": "包含 {{fee}} 服务费",
-      "InsufficientBalance": "当前链的 Rabby 合约地址余额不足，\n请稍后再试",
+      "InsufficientBalance": "当前链的 Lux 合约地址余额不足，\n请稍后再试",
       "InsufficientBalanceTips": "余额不足",
       "Loading_Tokens": "正在加载代币...",
       "No_Tokens": "没有代币",
@@ -927,7 +927,7 @@
       "description": "你可以向任意链上充值 Gas， 只需要支付已有链上的可用代币。\n付款一经确认立即到账，无需等待，不可撤销",
       "hightGasFees": "该充值金额太小，目标网络需要较高的 Gas 费",
       "payment": "Gas 充值付款",
-      "service-fee-tip": "Rabby 通过提供 Gas 充值服务，需要承担代币波动的损失以及充值的 Gas 费用。\n因此要收取20%的服务费",
+      "service-fee-tip": "Lux 通过提供 Gas 充值服务，需要承担代币波动的损失以及充值的 Gas 费用。\n因此要收取20%的服务费",
       "title": "极速充值 Gas",
       "topUpChain": "充值链"
     },
@@ -942,7 +942,7 @@
       "current-address": "当前地址",
       "delete-all-addresses-and-the-seed-phrase": "删除所有地址和助记词",
       "delete-all-addresses-but-keep-the-seed-phrase": "删除所有地址，但保留助记词",
-      "delete-checklist-1": "我明白如果我删除这个地址，对应的私钥及助记词都将被删除，Rabby 无法为我找回",
+      "delete-checklist-1": "我明白如果我删除这个地址，对应的私钥及助记词都将被删除，Lux 无法为我找回",
       "delete-checklist-2": "我确认我已备份私钥或助记词，现在已准备好进行删除",
       "delete-desc": "删除前，请记住以下几点，以了解如何保护你的资产",
       "delete-empty-seed-phrase": "删除助记词及其 0 个地址",
@@ -1150,7 +1150,7 @@
       "signAndSubmitButton": "签名并提交",
       "walletConnect": {
         "chainSwitched": "你已在移动钱包上切换到不同的链\n请在手机钱包中切换到{{0}}",
-        "connectBeforeSign": "{{0}}未连接到 Rabby，请在签名前连接",
+        "connectBeforeSign": "{{0}}未连接到 Lux，请在签名前连接",
         "connected": "已连接并准备好签名",
         "connectedButCantSign": "已连接但无法签名",
         "howToSwitch": "如何切换",
@@ -1214,7 +1214,7 @@
         "unavailable": "Gas不足且不符合免费Gas条件",
         "notEnough": "Gas余额不足",
         "GetFreeGasToSign": "获取免费Gas进行签名",
-        "rabbyPayGas": "Rabby将支付所需Gas费用 - 只需签名即可",
+        "rabbyPayGas": "Lux将支付所需Gas费用 - 只需签名即可",
         "customRpcUnavailableTip": "不支持免费Gas的自定义RPC",
         "walletConnectUnavailableTip": "通过WalletConnect连接的移动钱包不支持免费Gas",
         "watchUnavailableTip": "观察钱包地址不支持免费Gas"
@@ -1276,11 +1276,11 @@
       },
       "deployTimeTitle": "部署时间",
       "eip1559Desc1": "在支持 EIP-1559 的链上，Priority Fee 是给处理你的交易的矿工的小费。\n你可以通过降低 Max Priority Fee 来节省最终的矿工费，这可能会导致完成交易需要耗费更长时间",
-      "eip1559Desc2": "在 Rabby 中，Priority Fee（小费）= Max Fee - Base Fee。\n设置 Max Priority Fee 后，将从中扣除 Base Fee，剩下的部分将作为小费给予矿工",
+      "eip1559Desc2": "在 Lux 中，Priority Fee（小费）= Max Fee - Base Fee。\n设置 Max Priority Fee 后，将从中扣除 Base Fee，剩下的部分将作为小费给予矿工",
       "enoughSafeSigCollected": "已收集到足够的签名",
       "failToFetchGasCost": "无法估计矿工费",
       "importedAddress": "已导入地址",
-      "fakeTokenAlert": "这是由 Rabby 标记的诈骗代币",
+      "fakeTokenAlert": "这是由 Lux 标记的诈骗代币",
       "firstOnChain": "首次链上交易",
       "floorPrice": "地板价",
       "gasLimitEmptyAlert": "请输入 Gas limit",
@@ -1346,7 +1346,7 @@
       },
       "safeAddressNotSupportChain": "{{0}} 链不支持当前 Safe 地址",
       "safeAdminSigned": "已签",
-      "scamTokenAlert": "根据 Rabby 的检测，这可能是一个低质量的诈骗代币",
+      "scamTokenAlert": "根据 Lux 的检测，这可能是一个低质量的诈骗代币",
       "send": {
         "addressBalanceTitle": "地址余额",
         "cexAddress": "中心化交易所地址",
@@ -1369,7 +1369,7 @@
         "nftNotSupport": "不支持 NFT",
         "title": "发送 NFT"
       },
-      "sigCantDecode": "该签名无法被 Rabby 解码",
+      "sigCantDecode": "该签名无法被 Lux 解码",
       "signTransactionOnChain": "签署 {{chain}} 交易",
       "speedUpTooltip": "本次加速交易和原交易，最终只会完成其中一项",
       "decodedTooltip": "该签名已被 Lux Wallet 解析",
@@ -1402,7 +1402,7 @@
         "contractTrustValueTip": "信任值是指授权并暴露给该合约的资产总价值，\n信任值低表示该合约存在风险或 180 天内不活跃",
         "deployTimeLessThan": "< {{value}} 天",
         "eoaAddress": "EOA",
-        "flagByRabby": "被 Rabby 标记为风险",
+        "flagByRabby": "被 Lux 标记为风险",
         "myBalance": "我的余额",
         "title": "代币授权",
         "trustValueLessThan": "≤ {{value}}"
@@ -1484,7 +1484,7 @@
       "maxPriorityFeeDisabledAlert": "请先设置 Gas Price",
       "customRPCErrorModal": {
         "title": "自定义RPC错误",
-        "content": "您的自定义RPC当前不可用。您可以禁用它，并继续使用Rabby的官方RPC进行签名。",
+        "content": "您的自定义RPC当前不可用。您可以禁用它，并继续使用Lux的官方RPC进行签名。",
         "button": "禁用自定义RPC"
       },
       "revokePermit": {
@@ -1565,7 +1565,7 @@
       "Completed": "已完成",
       "InSufficientTip": "余额不足，无法进行交易模拟和 Gas 估算。\n将显示原始报价",
       "Pending": "待完成",
-      "QuoteLessWarning": "通过Rabby交易模拟估算， \ndex 提供的报价是 {{receive}} ，\n你收到的报价将比预期少 {{diff}}",
+      "QuoteLessWarning": "通过Lux交易模拟估算， \ndex 提供的报价是 {{receive}} ，\n你收到的报价将比预期少 {{diff}}",
       "actual-slippage": "实际滑点：",
       "amount-in": "卖出{{symbol}}金额",
       "approve-tips": "1.授权 → 2.兑换",
@@ -1598,7 +1598,7 @@
       "not-supported": "不支持",
       "pendingTip": "交易已提交。\n如果交易长时间处于待完成状态，你可以尝试点击“更多”>“清除待完成”",
       "price-expired-refresh-quote": "价格已过期，\n刷新报价",
-      "rabby-fee": "Rabby手续费",
+      "rabby-fee": "Lux手续费",
       "preferMEV": "优先 MEV 模式",
       "preferMEVTip": "开启后你在 Ethereum 链上的 Swap 交易将优先使用 Mev Guard 模式，这有助于减少你的交易被夹的风险。当你使用自定义 RPC 或者手机钱包地址时，则不支持该模式。",
       "rate": "汇率",
@@ -1624,7 +1624,7 @@
       "to": "买入",
       "trade": "交易",
       "tradingSettingTip1": "1. 开启后，你将直接与交易所合约进行交互",
-      "tradingSettingTip2": "2. Rabby 不承担因交易所合约产生的任何风险",
+      "tradingSettingTip2": "2. Lux 不承担因交易所合约产生的任何风险",
       "tradingSettingTips": "共 {{viewCount}} 个交易所提供报价，{{tradeCount}} 个允许直接交易",
       "transaction-might-be-frontrun-because-of-high-slippage-tolerance": "由于滑点较高，交易可能会被抢先交易",
       "unable-to-fetch-the-price": "无法获取价格",
@@ -1637,18 +1637,18 @@
       "no-slippage-for-wrap": "Wrap 无滑点"
     },
     "switchChain": {
-      "chainNotSupport": "Rabby尚不支持请求的链",
+      "chainNotSupport": "Lux尚不支持请求的链",
       "title": "",
       "testnetTip": "请在\"更多\"中打开“开启测试网”后再发起测试网连接",
-      "chainNotSupportYet": "Rabby尚未支持请求的链",
+      "chainNotSupportYet": "Lux尚未支持请求的链",
       "chainId": "链 ID：",
       "unknownChain": "未知链",
       "requestsReceived": "收到1个请求",
       "requestsReceivedPlural": "收到{{count}}个请求",
-      "requestRabbyToSupport": "请求Rabby提供支持",
-      "chainNotSupportAddChain": "Rabby尚未集成请求的链。您可以将其添加为自定义测试网络",
+      "requestRabbyToSupport": "请求Lux提供支持",
+      "chainNotSupportAddChain": "Lux尚未集成请求的链。您可以将其添加为自定义测试网络",
       "addChain": "添加测试网络",
-      "desc": "请求的网络尚未被Rabby集成。您可以手动将其添加为自定义网络"
+      "desc": "请求的网络尚未被Lux集成。您可以手动将其添加为自定义网络"
     },
     "unlock": {
       "btn": {
@@ -1673,7 +1673,7 @@
       "assets": "余额",
       "delete-address": "删除地址",
       "delete-desc": "在删除之前，请记住以下几点，以了解如何保护你的资产",
-      "direct-delete-desc": "该地址是一个{{renderBrand}}地址，Rabby不存储该地址的私钥或助记词，你可以将其删除",
+      "direct-delete-desc": "该地址是一个{{renderBrand}}地址，Lux不存储该地址的私钥或助记词，你可以将其删除",
       "edit-memo-title": "编辑地址备注",
       "hd-path": "HDpath",
       "manage-addresses-under-this-seed-phrase": "管理此助记词下的地址",
@@ -1688,7 +1688,7 @@
     "preferMetamaskDapps": {
       "title": "优先使用MetaMask连接的Dapp",
       "howToAddDesc": "在网页空白处点击右键，找到该选项",
-      "desc": "无论当前启用Rabby或者MetaMask，以下Dapp将保持连接至MetaMask",
+      "desc": "无论当前启用Lux或者MetaMask，以下Dapp将保持连接至MetaMask",
       "howToAdd": "如何添加",
       "empty": "No dapps"
     },
@@ -1714,9 +1714,9 @@
     },
     "requestDebankTestnetGasToken": {
       "title": "获取 DeBank Testnet Gas Token",
-      "mintedTip": "Rabby Badge持有者可以每天获取一次",
-      "notMintedTip": "仅 Rabby Badge持有者可以获取",
-      "claimBadgeBtn": "领取 Rabby Badge",
+      "mintedTip": "Lux Badge持有者可以每天获取一次",
+      "notMintedTip": "仅 Lux Badge持有者可以获取",
+      "claimBadgeBtn": "领取 Lux Badge",
       "time": "每日额度",
       "requested": "你今日已获取过",
       "requestBtn": "获取"
@@ -1771,7 +1771,7 @@
       "qrCodePopupTips": "永远不要与任何其他人分享种子短语的二维码。请在安全的环境中查看并小心保管。"
     },
     "ethSign": {
-      "alert": " 'eth_sign' 类型签名会导致资产损失。为了你的安全， Rabby 不支持此类签名"
+      "alert": " 'eth_sign' 类型签名会导致资产损失。为了你的安全， Lux 不支持此类签名"
     },
     "createPassword": {
       "agree": "我已阅读并同意 <1/> <2>Terms of Use</2>",
@@ -1791,7 +1791,7 @@
       },
       "step1": {
         "title": "访问所有 Dapp",
-        "desc": "Rabby 可连接到 MetaMask 支持的所有 Dapp"
+        "desc": "Lux 可连接到 MetaMask 支持的所有 Dapp"
       }
     },
     "importQrBase": {
@@ -1900,7 +1900,7 @@
       "listBy": "Dapp已由以下列表"
     },
     "rabbyPoints": {
-      "title": "Rabby 积分",
+      "title": "Lux 积分",
       "out-of-x-current-total-points": "在{{total}}总分发积分中",
       "share-on": "分享到",
       "referral-code-copied": "已复制推荐码",
@@ -1920,9 +1920,9 @@
         "claim": "认领",
         "addressBalance": "钱包余额",
         "MetaMaskSwap": "MetaMask 交换",
-        "rabbyUser": "Rabby 活跃用户",
-        "rabbyValuedUserBadge": "Rabby 重要用户徽章",
-        "rabbyDesktopGenesisNft": "Rabby 桌面起源NFT",
+        "rabbyUser": "Lux 活跃用户",
+        "rabbyValuedUserBadge": "Lux 重要用户徽章",
+        "rabbyDesktopGenesisNft": "Lux 桌面起源NFT",
         "walletBalance": "钱包余额",
         "activeStats": "活跃状态",
         "referral-code": "推荐码",
@@ -1951,12 +1951,12 @@
       },
       "code-set-successfully": "推荐码设置成功",
       "initialPointsClaimEnded": "初始积分认领已结束",
-      "firstRoundEnded": "🎉 第一轮Rabby积分已结束",
-      "secondRoundEnded": "🎉 第二轮Rabby积分已结束"
+      "firstRoundEnded": "🎉 第一轮Lux积分已结束",
+      "secondRoundEnded": "🎉 第二轮Lux积分已结束"
     },
     "customTestnet": {
       "title": "自定义网络",
-      "desc": "Rabby 无法验证自定义网络的安全性，请仅添加信任的网络。",
+      "desc": "Lux 无法验证自定义网络的安全性，请仅添加信任的网络。",
       "add": "添加自定义网络",
       "empty": "没有自定义网络",
       "currency": "货币",
@@ -1978,19 +1978,19 @@
         "empty": "未找到链",
         "tips": {
           "added": "您已经添加了此链",
-          "supported": "该链已被Rabby钱包集成"
+          "supported": "该链已被Lux钱包集成"
         }
       },
       "signTx": {
         "title": "交易数据"
       },
       "ConfirmModifyRpcModal": {
-        "desc": "该链已被Rabby集成。您是否需要修改其RPC URL？"
+        "desc": "该链已被Lux集成。您是否需要修改其RPC URL？"
       }
     },
     "addChain": {
-      "title": "将自定义网络添加到Rabby",
-      "desc": "Rabby 无法验证自定义网络的安全性，请仅添加信任的网络。"
+      "title": "将自定义网络添加到Lux",
+      "desc": "Lux 无法验证自定义网络的安全性，请仅添加信任的网络。"
     },
     "sign": {
       "transactionSpeed": "交易速度"

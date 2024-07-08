@@ -33,19 +33,19 @@ async function bundle() {
   const { version } = await prompt({
     type: 'input',
     name: 'version',
-    message: '[Rabby] Please input the release version:',
+    message: '[Lux] Please input the release version:',
   });
 
   const isMV3 = await new BooleanPrompt({
-    message: '[Rabby] Do you want to release to MV3? (y/N)',
+    message: '[Lux] Do you want to release to MV3? (y/N)',
   }).run();
 
   const isDebug = await new BooleanPrompt({
-    message: '[Rabby] Do you want to build a debug version? (y/N)',
+    message: '[Lux] Do you want to build a debug version? (y/N)',
   }).run();
 
   const isRelease = await new BooleanPrompt({
-    message: '[Rabby] Do you want to release? (y/N)',
+    message: '[Lux] Do you want to release? (y/N)',
   }).run();
 
   const buildStr = isDebug ? 'build:debug' : 'build:pro';
