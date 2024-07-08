@@ -87,7 +87,7 @@ const SearchWrapper = styled.div`
 `;
 
 export const DappSearchPage = () => {
-  useTitle('Dapp Search - Rabby Wallet');
+  useTitle('Dapp Search - Lux Wallet');
   const [searchValue, setSearchValue] = React.useState<string>('');
   const [chain, setChain] = React.useState<CHAINS_ENUM>();
   const chainInfo = useMemo(() => {

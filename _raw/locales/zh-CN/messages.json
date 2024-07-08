@@ -25,7 +25,7 @@
     "unknownNFT": "未知 NFT",
     "watchModeAddress": "观察模式地址",
     "appDescription": "The game-changing wallet for Ethereum and all EVM chains",
-    "appName": "Rabby Wallet",
+    "appName": "Lux Wallet",
     "Deleted": "已删除",
     "Loading": "加载中",
     "Balance": "余额",
@@ -65,11 +65,11 @@
       "feedback": {
         "directMessage": {
           "content": "发送私信",
-          "description": "在 DeBank 上与 Rabby Wallet 官方1v1联系"
+          "description": "在 DeBank 上与 Lux Wallet 官方1v1联系"
         },
         "proposal": {
           "content": "发起提案",
-          "description": "在 DeBank 上发布对 Rabby Wallet 的提案"
+          "description": "在 DeBank 上发布对 Lux Wallet 的提案"
         },
         "title": "反馈"
       },
@@ -171,7 +171,7 @@
         "learnMoreOnDebank": "跳转至 DeBank 领取",
         "noCode": "你尚未激活该地址的邀请码",
         "rabbyValuedUserNo": "Rabby Valued User No.{{num}}",
-        "swapTip": "你需要先在 Rabby Wallet 中完成一笔与知名dex的兑换",
+        "swapTip": "你需要先在 Lux Wallet 中完成一笔与知名dex的兑换",
         "title": "领取 Rabby Badge",
         "viewOnDebank": "在 DeBank 上查看",
         "viewYourClaimCode": "查看你的邀请码",
@@ -241,7 +241,7 @@
         "testnetBackendServiceUrl": "测试网后端服务 URL",
         "updateAvailable": "更新版本",
         "updateVersion": {
-          "content": "检测到 Rabby Wallet 更新版本\n点击查看如何手动更新",
+          "content": "检测到 Lux Wallet 更新版本\n点击查看如何手动更新",
           "okText": "查看教程",
           "successTip": "你正在使用最新版本",
           "title": "有更新可用"
@@ -1372,7 +1372,7 @@
       "sigCantDecode": "该签名无法被 Rabby 解码",
       "signTransactionOnChain": "签署 {{chain}} 交易",
       "speedUpTooltip": "本次加速交易和原交易，最终只会完成其中一项",
-      "decodedTooltip": "该签名已被 Rabby Wallet 解析",
+      "decodedTooltip": "该签名已被 Lux Wallet 解析",
       "submitMultisig": {
         "multisigAddress": "多签地址",
         "title": "提交多签交易"

@@ -751,11 +751,11 @@
       "feedback": {
         "directMessage": {
           "content": "Пряме повідомлення",
-          "description": "Поспілкуйтеся з представником Rabby Wallet на DeBank"
+          "description": "Поспілкуйтеся з представником Lux Wallet на DeBank"
         },
         "proposal": {
           "content": "Пропозиція",
-          "description": "Подати пропозицію для Rabby Wallet на DeBank"
+          "description": "Подати пропозицію для Lux Wallet на DeBank"
         },
         "title": "Зворотній зв'язок"
       },
@@ -783,7 +783,7 @@
         "imageLabel": "Rabby Badge",
         "title": "Вимагайте Rabby Badge для",
         "enterClaimCode": "Введіть код вимоги",
-        "swapTip": "Спочатку вам потрібно виконати свап через DEX у гаманці Rabby Wallet.",
+        "swapTip": "Спочатку вам потрібно виконати свап через DEX у гаманці Lux Wallet.",
         "goToSwap": "Перейти до свапу",
         "claim": "Вимагати",
         "viewYourClaimCode": "Переглянути код вашої заявки",
@@ -834,7 +834,7 @@
         "warning": "Попередження",
         "clearWatchAddressContent": "Ви хочете видалити всі адреси Режиму спостереження?",
         "updateVersion": {
-          "content": "Доступне нове оновлення для Rabby Wallet. Натисніть, щоб перевірити, як оновити вручну.",
+          "content": "Доступне нове оновлення для Lux Wallet. Натисніть, щоб перевірити, як оновити вручну.",
           "okText": "Дивіться інструкцію",
           "successTip": "Ви використовуєте останню версію"
         },
@@ -1570,7 +1570,7 @@
     }
   },
   "global": {
-    "appName": "Rabby Wallet",
+    "appName": "Lux Wallet",
     "appDescription": "Гаманець, що змінює правила гри для Ethereum і всіх EVM-мереж",
     "copied": "Скопійовано",
     "confirm": "Підтвердити",

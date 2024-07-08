@@ -3803,7 +3803,7 @@ export class WalletController extends BaseController {
         await wallet.openapi.getRabbySignatureTextV2({
           id: account?.address,
         })
-      )?.text; //`Rabby Wallet wants you to sign in with your address:\n${account?.address}`;
+      )?.text; //`Lux Wallet wants you to sign in with your address:\n${account?.address}`;
     }
 
     const msg = `0x${Buffer.from(

@@ -43,7 +43,7 @@
       "gasPriceTitle": "ガス価格（Gwei）",
       "maxPriorityFee": "最大優先手数料（Gwei）",
       "eip1559Desc1": "EIP-1559をサポートするチェーンでは、優先手数料は取引を処理するためのマイナーへのチップです。優先手数料を下げることで、最終的なガスコストを節約できますが、取引が処理されるまでに時間がかかる場合があります。",
-      "eip1559Desc2": "Rabbyでは、優先手数料（チップ）= 最大料金 - 基本料金です。最大優先手数料を設定すると、基本料金がそれから差し引かれ、残りがマイナーにチップとして渡されます。",
+      "eip1559Desc2": "Luxでは、優先手数料（チップ）= 最大料金 - 基本料金です。最大優先手数料を設定すると、基本料金がそれから差し引かれ、残りがマイナーにチップとして渡されます。",
       "hardwareSupport1559Alert": "ハードウェアウォレットのファームウェアがEIP 1559をサポートするバージョンにアップグレードされていることを確認してください",
       "gasLimitTitle": "ガスリミット",
       "recommendGasLimitTip": "推定{{est}}。現在{{current}}倍、お勧めは",
@@ -112,7 +112,7 @@
         "trustValueLessThan": "信頼値 ≤ {{value}}",
         "deployTimeLessThan": "展開時間 < {{value}} 日",
         "amountPopupTitle": "金額",
-        "flagByRabby": "Rabbyによってフラグが付けられた",
+        "flagByRabby": "Luxによってフラグが付けられた",
         "contractTrustValueTip": "信頼値は、この契約に対して承認され、露出しているトータルトークンを指します。低い信頼値は、180日の非活動またはリスクを示しています。"
       },
       "revokeTokenApprove": {
@@ -173,8 +173,8 @@
       "neverInteracted": "関与したことがない",
       "transacted": "以前に取引",
       "neverTransacted": "取引したことがない",
-      "fakeTokenAlert": "これはRabbyによってスキャムトークンとしてマークされたものです",
-      "scamTokenAlert": "これはRabbyの検出に基づき、低品質およびスキャムトークンである可能性があります",
+      "fakeTokenAlert": "これはLuxによってスキャムトークンとしてマークされたものです",
+      "scamTokenAlert": "これはLuxの検出に基づき、低品質およびスキャムトークンである可能性があります",
       "trusted": "信頼済み",
       "blocked": "ブロック済み",
       "noMark": "マークなし",
@@ -183,7 +183,7 @@
       "signTransactionOnChain": "{{chain}} トランザクションに署名",
       "viewRaw": "生データを見る",
       "unknownActionType": "不明なアクションタイプ",
-      "sigCantDecode": "この署名はRabbyによってデコードできませんが、それはリスクを意味するわけではありません",
+      "sigCantDecode": "この署名はLuxによってデコードできませんが、それはリスクを意味するわけではありません",
       "nftCollection": "NFTコレクション",
       "floorPrice": "底値",
       "contractAddress": "コントラクトアドレス",
@@ -221,7 +221,7 @@
         "connected": "接続されており、署名する準備ができています",
         "howToSwitch": "切り替え方",
         "wrongAddressAlert": "モバイルウォレットで異なるアドレスに切り替えました。モバイルウォレットで正しいアドレスに切り替えてください",
-        "connectBeforeSign": "{{0}}はRabbyに接続されていません、署名する前に接続してください",
+        "connectBeforeSign": "{{0}}はLuxに接続されていません、署名する前に接続してください",
         "chainSwitched": "モバイルウォレットで異なるチェーンに切り替えました。{{0}}にモバイルウォレットで切り替えてください",
         "latency": "レイテンシ",
         "requestSuccessToast": "リクエストは正常に送信されました",
@@ -322,7 +322,7 @@
         "label": "トランザクション",
         "empty": {
           "title": "まだ署名されたトランザクションはありません",
-          "desc": "Rabby経由で署名されたすべてのトランザクションがここにリストされます。"
+          "desc": "Lux経由で署名されたすべてのトランザクションがここにリストされます。"
         },
         "common": {
           "unlimited": "無制限",
@@ -362,7 +362,7 @@
         "label": "テキスト",
         "empty": {
           "title": "まだ署名されたテキストはありません",
-          "desc": "Rabby経由で署名されたすべてのテキストがここにリストされます。"
+          "desc": "Lux経由で署名されたすべてのテキストがここにリストされます。"
         }
       }
     },
@@ -569,14 +569,14 @@
       "topUpChain": "トップアップチェーン",
       "Amount": "数量",
       "Continue": "続行",
-      "InsufficientBalance": "現在のチェーンのRabbyの契約アドレスには十分な残高がありません。後で再試行してください。",
+      "InsufficientBalance": "現在のチェーンのLuxの契約アドレスには十分な残高がありません。後で再試行してください。",
       "hightGasFees": "このトップアップ金額は小さすぎます。対象ネットワークは高いガス手数料を必要とします。",
       "No_Tokens": "トークンがありません",
       "InsufficientBalanceTips": "残高不足",
       "payment": "ガストップアップ支払い",
       "Loading_Tokens": "トークンを読み込み中...",
       "Including-service-fee": "{{fee}} サービス料金を含む",
-      "service-fee-tip": "ガストップアップのサービスを提供するため、Rabbyはトークンの変動とトップアップのガス手数料を負担しなければなりません。そのため、サービス料金として20％が請求されます。",
+      "service-fee-tip": "ガストップアップのサービスを提供するため、Luxはトークンの変動とトップアップのガス手数料を負担しなければなりません。そのため、サービス料金として20％が請求されます。",
       "Confirm": "確認",
       "Select-from-supported-tokens": "サポートされているトークンから選択",
       "Value": "値",
@@ -611,7 +611,7 @@
       "amount-in": "{{symbol}} での金額",
       "unlimited-allowance": "無制限の許可",
       "insufficient-balance": "残高が不足しています",
-      "rabby-fee": "Rabby 手数料",
+      "rabby-fee": "Lux 手数料",
       "minimum-received": "最低受取額",
       "there-is-no-fee-and-slippage-for-this-trade": "この取引には手数料とスリッページはありません",
       "approve-tips": "1. 承認 → 2. スワップ",
@@ -623,7 +623,7 @@
       "this-exchange-is-not-enabled-to-trade-by-you": "この取引所はあなたによる取引が有効にされていません。",
       "enable-it": "有効にする",
       "this-token-pair-is-not-supported": "トークンペアはサポートされていません",
-      "QuoteLessWarning": "受け取り額は Rabby トランザクションのシミュレーションからの見積もりです。DEXが提供するオファーは {{receive}} です。期待されるオファーより {{diff}} 少なく受け取ります。",
+      "QuoteLessWarning": "受け取り額は Lux トランザクションのシミュレーションからの見積もりです。DEXが提供するオファーは {{receive}} です。期待されるオファーより {{diff}} 少なく受け取ります。",
       "by-transaction-simulation-the-quote-is-valid": "トランザクションのシミュレーションによると、見積もりは有効です",
       "wrap-contract": "ラップ契約",
       "directlySwap": "{{symbol}} トークンをスマートコントラクトで直接ラップする",
@@ -651,7 +651,7 @@
       "i-understand-and-accept-it": "理解し、受け入れます",
       "confirm": "確認",
       "tradingSettingTip1": "1. 一度有効にすると、取引所の契約と直接対話します",
-      "tradingSettingTip2": "2. Rabby は取引所の契約から発生するリスクについて責任を負いません",
+      "tradingSettingTip2": "2. Lux は取引所の契約から発生するリスクについて責任を負いません",
       "gas-fee": "ガス料金: {{gasUsed}}",
       "estimate": "見積もり:",
       "actual": "実際:"
@@ -668,7 +668,7 @@
       "whitelisted-address": "ホワイトリストされたアドレス",
       "addressTypeTip": "{{type}} によってインポート",
       "delete-desc": "削除する前に、資産を保護する方法を理解するために以下のポイントを考慮してください。",
-      "delete-checklist-1": "このアドレスを削除すると、このアドレスの対応するプライベートキーとシードフレーズが削除され、Rabby はそれを回復できなくなります。",
+      "delete-checklist-1": "このアドレスを削除すると、このアドレスの対応するプライベートキーとシードフレーズが削除され、Lux はそれを回復できなくなります。",
       "delete-checklist-2": "プライベートキーまたはシードフレーズをバックアップし、削除の準備ができていることを確認します。",
       "confirm": "確認",
       "cancel": "キャンセル",
@@ -711,9 +711,9 @@
         "comingSoon": "近日公開",
         "soon": "まもなく",
         "refreshTheWebPageToTakeEffect": "効果を発揮するにはウェブページを更新してください",
-        "rabbyIsInUseAndMetamaskIsBanned": "Rabbyが使用中でMetaMaskは禁止されています",
+        "rabbyIsInUseAndMetamaskIsBanned": "Luxが使用中でMetaMaskは禁止されています",
         "flip": "反転",
-        "metamaskIsInUseAndRabbyIsBanned": "MetaMaskが使用中でRabbyは禁止されています",
+        "metamaskIsInUseAndRabbyIsBanned": "MetaMaskが使用中でLuxは禁止されています",
         "transactionNeedsToSign": "トランザクションをサインする必要があります",
         "transactionsNeedToSign": "トランザクションをサインする必要があります",
         "view": "表示",
@@ -734,7 +734,7 @@
         "metamaskTooltip": "このDappではMetaMaskを使用することを希望しています。設定 > MetaMask優先Dappsでいつでも設定を更新できます",
         "connected": "接続済み",
         "notConnected": "未接続",
-        "connectedDapp": "Rabbyは現在のDappに接続されていません。接続するには、Dappのウェブページで接続ボタンを見つけてクリックしてください。",
+        "connectedDapp": "Luxは現在のDappに接続されていません。接続するには、Dappのウェブページで接続ボタンを見つけてクリックしてください。",
         "noDappFound": "Dappが見つかりません",
         "disconnectAll": "すべて切断",
         "disconnectRecentlyUsed": {
@@ -751,11 +751,11 @@
       "feedback": {
         "directMessage": {
           "content": "ダイレクトメッセージ",
-          "description": "DeBankのRabby Wallet公式とチャット"
+          "description": "DeBankのLux Wallet公式とチャット"
         },
         "proposal": {
           "content": "提案",
-          "description": "Rabby Walletに関する提案をDeBankに提出"
+          "description": "Lux Walletに関する提案をDeBankに提出"
         },
         "title": "フィードバック"
       },
@@ -780,16 +780,16 @@
         }
       },
       "rabbyBadge": {
-        "imageLabel": "Rabby バッジ",
-        "title": "Rabby バッジをクレームする",
+        "imageLabel": "Lux バッジ",
+        "title": "Lux バッジをクレームする",
         "enterClaimCode": "クレームコードを入力",
-        "swapTip": "Rabby Wallet内で注目のDEXでスワップを完了する必要があります。",
+        "swapTip": "Lux Wallet内で注目のDEXでスワップを完了する必要があります。",
         "goToSwap": "スワップに進む",
         "claim": "クレーム",
         "viewYourClaimCode": "クレームコードを表示",
         "noCode": "このアドレスでクレームコードを有効にしていません",
         "learnMoreOnDebank": "DeBankで詳細を確認",
-        "rabbyValuedUserNo": "Rabby 評価ユーザー番号{{num}}",
+        "rabbyValuedUserNo": "Lux 評価ユーザー番号{{num}}",
         "claimSuccess": "クレーム成功",
         "viewOnDebank": "DeBankで表示"
       },
@@ -822,19 +822,19 @@
         "save": "保存",
         "pendingTransactionCleared": "保留中のトランザクションがクリアされました",
         "clearPending": "保留中のクリア",
-        "clearPendingTip1": "これにより、すべての保留中のトランザクションがクリアされます。これにより、Rabbyのトランザクションの状態がブロックチェーン上の状態と一致しない場合の問題を解決できます。",
+        "clearPendingTip1": "これにより、すべての保留中のトランザクションがクリアされます。これにより、Luxのトランザクションの状態がブロックチェーン上の状態と一致しない場合の問題を解決できます。",
         "clearPendingTip2": "これにより、アカウントの残高は変更されず、シードフレーズを再入力する必要はありません。すべての資産とアカウント情報は安全に保たれます。",
         "autoLockTime": "自動ロック時間",
-        "claimRabbyBadge": "Rabby バッジをクレーム！",
+        "claimRabbyBadge": "Lux バッジをクレーム！",
         "cancel": "キャンセル",
         "enableWhitelist": "ホワイトリストを有効にする",
         "disableWhitelist": "ホワイトリストを無効にする",
-        "enableWhitelistTip": "有効にすると、Rabbyを使用してホワイトリスト内のアドレスにのみ資産を送信できます。",
+        "enableWhitelistTip": "有効にすると、Luxを使用してホワイトリスト内のアドレスにのみ資産を送信できます。",
         "disableWhitelistTip": "無効にすると、どのアドレスにでも資産を送信できます",
         "warning": "警告",
         "clearWatchAddressContent": "すべてのウォッチモードアドレスを削除してもよろしいですか？",
         "updateVersion": {
-          "content": "新しいRabby Walletのアップデートが利用可能です。手動でアップデート方法を確認するにはクリックしてください。",
+          "content": "新しいLux Walletのアップデートが利用可能です。手動でアップデート方法を確認するにはクリックしてください。",
           "okText": "チュートリアルを見る",
           "successTip": "最新バージョンを使用中です"
         },
@@ -865,8 +865,8 @@
       "tokenDetail": {
         "blockedTip": "ブロックされたトークンはトークンリストに表示されません",
         "blocked": "ブロック済み",
-        "selectedCustom": "このトークンはRabbyにリストされていません。カスタムでトークンリストに追加しました。",
-        "notSelectedCustom": "このトークンはRabbyにリストされていません。オンにするとトークンリストに追加されます。",
+        "selectedCustom": "このトークンはLuxにリストされていません。カスタムでトークンリストに追加しました。",
+        "notSelectedCustom": "このトークンはLuxにリストされていません。オンにするとトークンリストに追加されます。",
         "customized": "カスタマイズ済み",
         "scamTx": "詐欺トランザクション",
         "txFailed": "失敗",
@@ -986,14 +986,14 @@
           "answer": "資産を制御するために使用される12、18、または24の単語フレーズです。"
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabbyでインポートするのは安全ですか?",
+          "question": "Luxでインポートするのは安全ですか?",
           "answer": "はい、それはブラウザー上でローカルに保存され、あなた以外はアクセスできません。"
         },
         "importError": "[CreateMnemonics] 予期しないステップ {{0}}",
         "importQuestion1": "シードフレーズを失うと、資産も失われます。",
         "importQuestion2": "シードフレーズを他の人と共有すると、資産が盗まれる可能性があります。",
-        "importQuestion3": "シードフレーズは私のコンピューターにのみ保存され、Rabbyはアクセスできません。",
-        "importQuestion4": "シードフレーズのバックアップを取らずにRabbyをアンインストールすると、Rabbyはそれを取り戻すことができません。",
+        "importQuestion3": "シードフレーズは私のコンピューターにのみ保存され、Luxはアクセスできません。",
+        "importQuestion4": "シードフレーズのバックアップを取らずにLuxをアンインストールすると、Luxはそれを取り戻すことができません。",
         "riskTips": "始める前に、以下のセキュリティのヒントを読んで心に留めておいてください。",
         "showSeedPhrase": "シードフレーズを表示",
         "backup": "シードフレーズのバックアップ",
@@ -1010,12 +1010,12 @@
       },
       "metamask": {
         "step1": "MetaMaskからシードフレーズまたはプライベートキーをエクスポートします <br /> <1>チュートリアルを表示するにはここをクリック<1/></1>",
-        "step2": "Rabbyでシードフレーズまたはプライベートキーをインポートします",
+        "step2": "Luxでシードフレーズまたはプライベートキーをインポートします",
         "step3": "インポートが完了し、すべてのアセットが自動的に表示されます <br />",
         "how": "MetaMaskアカウントをインポートする方法",
         "step": "ステップ",
         "importSeedPhrase": "シードフレーズまたはプライベートキーをインポート",
-        "importSeedPhraseTips": "これはブラウザー上でローカルにのみ保存されます。Rabbyはあなたのプライベート情報にアクセスしません。",
+        "importSeedPhraseTips": "これはブラウザー上でローカルにのみ保存されます。Luxはあなたのプライベート情報にアクセスしません。",
         "tips": "ヒント:",
         "tipsDesc": "シードフレーズ/プライベートキーはMetaMaskまたは特定のウォレットに属しているわけではありません。それはあなたにしか属していません。"
       },
@@ -1027,7 +1027,7 @@
           "answer": "資産を制御するために使用される文字列の組み合わせです。"
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabbyでそれをインポートするのは安全ですか？",
+          "question": "Luxでそれをインポートするのは安全ですか？",
           "answer": "はい、それはブラウザー上でローカルに保存され、あなた以外はアクセスできません。"
         },
         "isItPossibleToImportKeystore": {
@@ -1039,9 +1039,9 @@
       "importedSuccessfully": "インポートが成功しました",
       "ledger": {
         "title": "Ledgerを接続",
-        "cameraPermissionTitle": "Rabbyがカメラにアクセスする許可",
-        "cameraPermission1": "ブラウザーポップアップでRabbyがカメラにアクセスできるように許可します",
-        "allowRabbyPermissionsTitle": "Rabbyに以下の権限を許可:",
+        "cameraPermissionTitle": "Luxがカメラにアクセスする許可",
+        "cameraPermission1": "ブラウザーポップアップでLuxがカメラにアクセスできるように許可します",
+        "allowRabbyPermissionsTitle": "Luxに以下の権限を許可:",
         "ledgerPermission1": "HIDデバイスに接続",
         "ledgerPermissionTip": "以下のポップアップウィンドウでLedgerへのアクセスを許可するために、\\\"許可\\\"をクリックしてください。",
         "permissionsAuthorized": "権限が許可されました",
@@ -1090,14 +1090,14 @@
       },
       "hd": {
         "tooltip": {
-          "removed": "アドレスがRabbyから削除されました",
-          "added": "アドレスがRabbyに追加されました",
+          "removed": "アドレスがLuxから削除されました",
+          "added": "アドレスがLuxに追加されました",
           "connectError": "接続が停止しました。ページを更新して再接続してください。",
           "disconnected": "ハードウェアウォレットに接続できません。再接続を試してみてください。"
         },
         "waiting": "待機中",
         "clickToGetInfo": "チェーン上の情報を取得するにはクリック",
-        "addToRabby": "Rabbyに追加",
+        "addToRabby": "Luxに追加",
         "basicInformation": "基本情報",
         "addresses": "アドレス",
         "loadingAddress": "{{0}}/{{1}} アドレスを読み込んでいます",
@@ -1196,7 +1196,7 @@
         "manageBitbox02": "BitBox02を管理",
         "done": "完了",
         "addressesIn": "{{0}}のアドレス",
-        "addressesInRabby": "Rabbyのアドレス{{0}}",
+        "addressesInRabby": "Luxのアドレス{{0}}",
         "qrCode": {
           "switch": {
             "title": "新しい{{0}}デバイスに切り替え",
@@ -1235,17 +1235,17 @@
     },
     "addToken": {
       "noTokenFound": "トークンが見つかりません",
-      "tokenSupported": "トークンはRabbyでサポートされています",
+      "tokenSupported": "トークンはLuxでサポートされています",
       "tokenCustomized": "現在のトークンはカスタマイズされたものに既に追加されています",
       "tokenNotFound": "この契約アドレスからトークンが見つかりません",
-      "title": "Rabbyにカスタムトークンを追加",
+      "title": "Luxにカスタムトークンを追加",
       "balance": "残高",
       "tokenOnMultiChains": "複数のチェーン上のトークンアドレスです。お好きなものを選んでください",
       "noTokenFoundOnThisChain": "このチェーン上でトークンが見つかりません"
     },
     "switchChain": {
       "title": "",
-      "chainNotSupport": "要求されたチェーンはまだRabbyでサポートされていません",
+      "chainNotSupport": "要求されたチェーンはまだLuxでサポートされていません",
       "testnetTip": "テストネットに接続する前に、「詳細設定」の下にある「テストネットを有効にする」をオンにしてください"
     },
     "signText": {
@@ -1278,10 +1278,10 @@
       "listedBy": "リストされた提供元",
       "sitePopularity": "サイトの人気",
       "myMark": "私のマーク",
-      "flagByRabby": "Rabbyによってフラグ付け",
+      "flagByRabby": "Luxによってフラグ付け",
       "flagByMM": "MetaMaskによってフラグ付け",
       "flagByScamSniffer": "ScamSnifferによってフラグ付け",
-      "verifiedByRabby": "Rabbyによって確認",
+      "verifiedByRabby": "Luxによって確認",
       "foundForbiddenRisk": "禁止されたリスクが見つかりました。接続はブロックされました。",
       "markAsTrustToast": "\"信頼されている\" としてマーク",
       "markAsBlockToast": "\"ブロックされている\" としてマーク",
@@ -1318,7 +1318,7 @@
       "backup-seed-phrase": "シードフレーズをバックアップ",
       "delete-address": "アドレスを削除",
       "delete-desc": "削除する前に、以下のポイントを考慮して、資産を保護する方法を理解してください。",
-      "direct-delete-desc": "このアドレスは {{renderBrand}} アドレスであり、Rabbyはこのアドレスのプライベートキーやシードフレーズを保存していません。削除するだけです。",
+      "direct-delete-desc": "このアドレスは {{renderBrand}} アドレスであり、Luxはこのアドレスのプライベートキーやシードフレーズを保存していません。削除するだけです。",
       "admins": "管理者",
       "tx-requires": "トランザクションには <2>{{num}}</2> 回の確認が必要です",
       "edit-memo-title": "アドレスのメモを編集",
@@ -1360,9 +1360,9 @@
     },
     "requestDebankTestnetGasToken": {
       "title": "DeBankテストネットガストークンのリクエスト",
-      "mintedTip": "Rabbyバッジの所有者は1日に1回リクエストできます",
-      "notMintedTip": "リクエストはRabbyバッジの所有者のみ利用可能です",
-      "claimBadgeBtn": "Rabbyバッジを請求",
+      "mintedTip": "Luxバッジの所有者は1日に1回リクエストできます",
+      "notMintedTip": "リクエストはLuxバッジの所有者のみ利用可能です",
+      "claimBadgeBtn": "Luxバッジを請求",
       "time": "1日あたり",
       "requested": "本日リクエストしました",
       "requestBtn": "リクエスト"
@@ -1404,7 +1404,7 @@
       "clickToShowQr": "プライベートキーQRコードを表示するにはクリック"
     },
     "ethSign": {
-      "alert": "'eth_sign' で署名することは資産の損失につながる可能性があります。安全のため、Rabbyはこの方法をサポートしていません。"
+      "alert": "'eth_sign' で署名することは資産の損失につながる可能性があります。安全のため、Luxはこの方法をサポートしていません。"
     },
     "createPassword": {
       "title": "パスワードを設定",
@@ -1419,7 +1419,7 @@
     "welcome": {
       "step1": {
         "title": "すべてのDappsにアクセス",
-        "desc": "RabbyはMetaMaskがサポートするすべてのDappsに接続します"
+        "desc": "LuxはMetaMaskがサポートするすべてのDappsに接続します"
       },
       "step2": {
         "title": "セルフカストディアル",
@@ -1570,7 +1570,7 @@
     }
   },
   "global": {
-    "appName": "Rabbyウォレット",
+    "appName": "Luxウォレット",
     "appDescription": "EthereumおよびすべてのEVMチェーン向けの画期的なウォレット",
     "copied": "コピー済み",
     "confirm": "確認",

@@ -43,7 +43,7 @@
       "gasPriceTitle": "Gaspreis (Gwei)",
       "maxPriorityFee": "Maximale Prioritätsgebühr (Gwei)",
       "eip1559Desc1": "Bei Blockchains, die EIP-1559 unterstützen, ist die Prioritätsgebühr das Trinkgeld für die Miner, um Ihre Transaktion zu bearbeiten. Sie können Ihre Gaskosten senken, indem Sie die Prioritätsgebühr verringern, was jedoch eine längere Bearbeitungszeit für Ihre Transaktion zur Folge haben kann.",
-      "eip1559Desc2": "Hier bei Rabby ist die Prioritätsgebühr (Trinkgeld) = Max Gebühr - Basisgebühr. Nachdem Sie die maximale Prioritätsgebühr festgelegt haben, wird die Basisgebühr davon abgezogen und der Rest wird den Minern als Trinkgeld gegeben.",
+      "eip1559Desc2": "Hier bei Lux ist die Prioritätsgebühr (Trinkgeld) = Max Gebühr - Basisgebühr. Nachdem Sie die maximale Prioritätsgebühr festgelegt haben, wird die Basisgebühr davon abgezogen und der Rest wird den Minern als Trinkgeld gegeben.",
       "hardwareSupport1559Alert": "Stellen Sie sicher, dass Ihre Hardware-Wallet-Firmware auf die Version aktualisiert wurde, die EIP 1559 unterstützt",
       "gasLimitTitle": "Gas-Limit",
       "recommendGasLimitTip": "Geschätzt: {{est}}. Aktuell {{current}}x, empfohlen ",
@@ -112,7 +112,7 @@
         "trustValueLessThan": "Vertrauenswert ≤ {{value}}",
         "deployTimeLessThan": "Bereitstellungszeit < {{value}} Tage",
         "amountPopupTitle": "Betrag",
-        "flagByRabby": "Markiert von Rabby",
+        "flagByRabby": "Markiert von Lux",
         "contractTrustValueTip": "Der Vertrauenswert bezieht sich auf den gesamten genehmigten und diesem Smart Contract ausgesetzten Vermögenswert. Ein niedriger Vertrauenswert deutet auf ein Risiko oder aber eine Inaktivität von 180 Tagen oder mehr hin."
       },
       "revokeTokenApprove": {
@@ -173,8 +173,8 @@
       "neverInteracted": "Nie zuvor interagiert",
       "transacted": "Früher transaktiert",
       "neverTransacted": "Nie zuvor transaktiert",
-      "fakeTokenAlert": "Dies ist ein Betrugstoken, markiert von Rabby",
-      "scamTokenAlert": "Dies ist potenziell ein minderwertiger und betrügerischer Token basierend auf Rabbys Erkennung",
+      "fakeTokenAlert": "Dies ist ein Betrugstoken, markiert von Lux",
+      "scamTokenAlert": "Dies ist potenziell ein minderwertiger und betrügerischer Token basierend auf Lux Erkennung",
       "trusted": "Vertraut",
       "blocked": "Blockiert",
       "noMark": "Keine Markierung",
@@ -183,7 +183,7 @@
       "signTransactionOnChain": "Signiere {{chain}} Transaktion",
       "viewRaw": "Rohdaten anzeigen",
       "unknownActionType": "Unbekannter Aktionstyp",
-      "sigCantDecode": "Diese Signatur kann von Rabby nicht dekodiert werden",
+      "sigCantDecode": "Diese Signatur kann von Lux nicht dekodiert werden",
       "nftCollection": "NFT Sammlung",
       "floorPrice": "Mindestpreis (Floor)",
       "contractAddress": "Adresse des Smart Contracts",
@@ -238,7 +238,7 @@
         "connected": "Verbunden und bereit zum Signieren",
         "howToSwitch": "So wechseln Sie",
         "wrongAddressAlert": "Sie haben in der mobilen Wallet eine andere Adresse ausgewählt. Bitte wechseln Sie in der mobilen Wallet zur richtigen Adresse",
-        "connectBeforeSign": "{{0}} ist nicht mit Rabby verbunden, bitte vor dem Signieren verbinden",
+        "connectBeforeSign": "{{0}} ist nicht mit Lux verbunden, bitte vor dem Signieren verbinden",
         "chainSwitched": "Sie haben in der mobilen Wallet eine andere Blockchain ausgewählt. Bitte wechseln Sie zu {{0}} in der mobilen Wallet",
         "latency": "Latenz",
         "requestSuccessToast": "Anfrage erfolgreich gesendet",
@@ -346,7 +346,7 @@
         "label": "Transaktionen",
         "empty": {
           "title": "Noch keine signierten Transaktionen",
-          "desc": "Alle über Rabby signierten Transaktionen werden hier aufgelistet."
+          "desc": "Alle über Lux signierten Transaktionen werden hier aufgelistet."
         },
         "common": {
           "unlimited": "unbegrenzt",
@@ -386,7 +386,7 @@
         "label": "Text",
         "empty": {
           "title": "Noch keine signierten Texte",
-          "desc": "Alle über Rabby signierten Texte werden hier aufgelistet."
+          "desc": "Alle über Lux signierten Texte werden hier aufgelistet."
         }
       }
     },
@@ -593,14 +593,14 @@
       "topUpChain": "Auflade-Chain",
       "Amount": "Betrag",
       "Continue": "Weiter",
-      "InsufficientBalance": "Es gibt nicht genug Guthaben in Rabby's Smart Contract-Adresse für die aktuelle Blockchain. Bitte versuchen Sie es später erneut.",
+      "InsufficientBalance": "Es gibt nicht genug Guthaben in Lux's Smart Contract-Adresse für die aktuelle Blockchain. Bitte versuchen Sie es später erneut.",
       "hightGasFees": "Dieser Aufladebetrag ist zu gering, da das Zielnetzwerk hohe Gasgebühren erfordert.",
       "No_Tokens": "Keine Token",
       "InsufficientBalanceTips": "Unzureichendes Guthaben",
       "payment": "Gas Aufladezahlung",
       "Loading_Tokens": "Token werden geladen...",
       "Including-service-fee": "Einschließlich {{fee}} Servicegebühr",
-      "service-fee-tip": "Durch die Bereitstellung des Dienstes zum Gas-Aufladen muss Rabby den Verlust durch Preisschwankungen und die Gasgebühr für das Aufladen tragen. Daher wird eine Servicegebühr von 20% berechnet.",
+      "service-fee-tip": "Durch die Bereitstellung des Dienstes zum Gas-Aufladen muss Lux den Verlust durch Preisschwankungen und die Gasgebühr für das Aufladen tragen. Daher wird eine Servicegebühr von 20% berechnet.",
       "Confirm": "Bestätigen",
       "Select-from-supported-tokens": "Wählen Sie aus unterstützten Token",
       "Value": "Wert",
@@ -635,7 +635,7 @@
       "amount-in": "Betrag in {{symbol}}",
       "unlimited-allowance": "Unbegrenzte Erlaubnis",
       "insufficient-balance": "Unzureichendes Guthaben",
-      "rabby-fee": "Rabby Gebühr",
+      "rabby-fee": "Lux Gebühr",
       "minimum-received": "Minimum erhalten",
       "there-is-no-fee-and-slippage-for-this-trade": "Für diesen Handel gibt es keine Gebühr und keine Kursabweichung",
       "approve-tips": "1.Genehmigen → 2.Tauschen",
@@ -647,7 +647,7 @@
       "this-exchange-is-not-enabled-to-trade-by-you": "Diese Börse ist für Sie nicht zum Handeln aktiviert.",
       "enable-it": "Aktivieren",
       "this-token-pair-is-not-supported": "Token-Paar wird nicht unterstützt",
-      "QuoteLessWarning": "Der Empfangsbetrag wird aus der Rabby-Transaktionssimulation geschätzt. Das Angebot, das von Dex bereitgestellt wird, beträgt {{receive}}. Sie erhalten {{diff}} weniger als das erwartete Angebot.",
+      "QuoteLessWarning": "Der Empfangsbetrag wird aus der Lux-Transaktionssimulation geschätzt. Das Angebot, das von Dex bereitgestellt wird, beträgt {{receive}}. Sie erhalten {{diff}} weniger als das erwartete Angebot.",
       "by-transaction-simulation-the-quote-is-valid": "Durch Transaktionssimulation ist das Angebot gültig",
       "wrap-contract": "Wrap Contract",
       "directlySwap": "Direktes Wrapping von {{symbol}} Token mit dem Smart Contract",
@@ -675,7 +675,7 @@
       "i-understand-and-accept-it": "Ich verstehe und akzeptiere es",
       "confirm": "Bestätigen",
       "tradingSettingTip1": "1. Einmal aktiviert, interagieren Sie direkt mit dem Smart Contract der Börse",
-      "tradingSettingTip2": "2. Rabby haftet nicht für Risiken, die aus den Smart Contracts der Börsen entstehen",
+      "tradingSettingTip2": "2. Lux haftet nicht für Risiken, die aus den Smart Contracts der Börsen entstehen",
       "gas-fee": "Gas Gebühr: {{gasUsed}}",
       "estimate": "Schätzung:",
       "actual": "Tatsächlich:"
@@ -692,7 +692,7 @@
       "whitelisted-address": "Whitelist-Adresse",
       "addressTypeTip": "Importiert von {{type}}",
       "delete-desc": "Bevor Sie löschen, beachten Sie die folgenden Punkte, um zu verstehen, wie Sie Ihre Vermögenswerte schützen können.",
-      "delete-checklist-1": "Ich verstehe, dass, wenn ich diese Adresse lösche, Private Key & Seed Phrase dieser Adresse gelöscht werden und Rabby sie NICHT wiederherstellen kann.",
+      "delete-checklist-1": "Ich verstehe, dass, wenn ich diese Adresse lösche, Private Key & Seed Phrase dieser Adresse gelöscht werden und Lux sie NICHT wiederherstellen kann.",
       "delete-checklist-2": "Ich bestätige, dass ich den Private Key oder die Seed Phrase gesichert habe und bin jetzt bereit, die Adresse zu löschen.",
       "confirm": "Bestätigen",
       "cancel": "Abbrechen",
@@ -739,9 +739,9 @@
         "comingSoon": "Demnächst",
         "soon": "Bald",
         "refreshTheWebPageToTakeEffect": "Laden Sie die Webseite neu, um die Änderungen zu übernehmen",
-        "rabbyIsInUseAndMetamaskIsBanned": "Rabby wird verwendet und MetaMask ist gesperrt",
+        "rabbyIsInUseAndMetamaskIsBanned": "Lux wird verwendet und MetaMask ist gesperrt",
         "flip": "Umkehren",
-        "metamaskIsInUseAndRabbyIsBanned": "MetaMask wird verwendet und Rabby ist gesperrt",
+        "metamaskIsInUseAndRabbyIsBanned": "MetaMask wird verwendet und Lux ist gesperrt",
         "transactionNeedsToSign": "Transaktion muss signiert werden",
         "transactionsNeedToSign": "Transaktionen müssen signiert werden",
         "view": "Ansehen",
@@ -762,7 +762,7 @@
         "metamaskTooltip": "Sie bevorzugen die Verwendung von MetaMask mit dieser Dapp. Sie können diese Einstellung jederzeit anpassen unter Einstellungen > Bevorzugte MetaMask Dapps",
         "connected": "Verbunden",
         "notConnected": "Nicht verbunden",
-        "connectedDapp": "Rabby ist nicht mit der aktuellen Dapp verbunden. Um eine Verbindung herzustellen, suchen Sie den Verbindungsknopf auf der Webseite der Dapp und klicken Sie darauf.",
+        "connectedDapp": "Lux ist nicht mit der aktuellen Dapp verbunden. Um eine Verbindung herzustellen, suchen Sie den Verbindungsknopf auf der Webseite der Dapp und klicken Sie darauf.",
         "noDappFound": "Keine Dapp gefunden",
         "disconnectAll": "Alle trennen",
         "disconnectRecentlyUsed": {
@@ -779,11 +779,11 @@
       "feedback": {
         "directMessage": {
           "content": "Direkte Nachricht",
-          "description": "Chatten Sie mit Rabby Wallet Official auf DeBank"
+          "description": "Chatten Sie mit Lux Wallet Official auf DeBank"
         },
         "proposal": {
           "content": "Vorschlag",
-          "description": "Vorschlag für Rabby Wallet auf DeBank einreichen"
+          "description": "Vorschlag für Lux Wallet auf DeBank einreichen"
         },
         "title": "Feedback"
       },
@@ -808,16 +808,16 @@
         }
       },
       "rabbyBadge": {
-        "imageLabel": "Rabby Abzeichen",
-        "title": "Beanspruchen Sie das Rabby Abzeichen für",
+        "imageLabel": "Lux Abzeichen",
+        "title": "Beanspruchen Sie das Lux Abzeichen für",
         "enterClaimCode": "Geben Sie den Anspruchscode ein",
-        "swapTip": "Sie müssen zuerst einen Tausch mit einem bekannten DEX innerhalb von Rabby Wallet abschließen.",
+        "swapTip": "Sie müssen zuerst einen Tausch mit einem bekannten DEX innerhalb von Lux Wallet abschließen.",
         "goToSwap": "Zum Tauschen gehen",
         "claim": "Beanspruchen",
         "viewYourClaimCode": "Sehen Sie Ihren Anspruchscode",
         "noCode": "Sie haben keinen Anspruchscode für diese Adresse",
         "learnMoreOnDebank": "Erfahren Sie mehr auf DeBank",
-        "rabbyValuedUserNo": "Rabby geschätzter Benutzer Nr.{{num}}",
+        "rabbyValuedUserNo": "Lux geschätzter Benutzer Nr.{{num}}",
         "claimSuccess": "Erfolgreich beansprucht",
         "viewOnDebank": "Auf DeBank anzeigen"
       },
@@ -850,19 +850,19 @@
         "save": "Speichern",
         "pendingTransactionCleared": "Ausstehende Transaktionen gelöscht",
         "clearPending": "Ausstehende Transaktionen löschen",
-        "clearPendingTip1": "Dies wird alle Ihre ausstehenden Transaktionen löschen. Dies kann Ihnen helfen, das Problem zu lösen, dass in einigen Fällen der Zustand der Transaktion in Rabby nicht mit dem Zustand auf der Blockchain übereinstimmt.",
+        "clearPendingTip1": "Dies wird alle Ihre ausstehenden Transaktionen löschen. Dies kann Ihnen helfen, das Problem zu lösen, dass in einigen Fällen der Zustand der Transaktion in Lux nicht mit dem Zustand auf der Blockchain übereinstimmt.",
         "clearPendingTip2": "Dies wird die Salden in Ihren Konten nicht ändern oder erfordern, dass Sie Ihre Seed Phrase erneut eingeben. Alle Ihre Vermögenswerte und Kontoinformationen bleiben sicher.",
         "autoLockTime": "Automatische Sperrzeit",
-        "claimRabbyBadge": "Rabby Abzeichen beanspruchen!",
+        "claimRabbyBadge": "Lux Abzeichen beanspruchen!",
         "cancel": "Abbrechen",
         "enableWhitelist": "Whitelist aktivieren",
         "disableWhitelist": "Whitelist deaktivieren",
-        "enableWhitelistTip": "Wenn aktiviert, können Sie mit Rabby nur an Adressen in der Whitelist senden.",
+        "enableWhitelistTip": "Wenn aktiviert, können Sie mit Lux nur an Adressen in der Whitelist senden.",
         "disableWhitelistTip": "Sie können Assets an jede Adresse senden, sobald die Whitelist deaktiviert ist",
         "warning": "Warnung",
         "clearWatchAddressContent": "Sind Sie sicher, dass Sie alle Adressen im Beobachtungsmodus löschen möchten?",
         "updateVersion": {
-          "content": "Ein neues Update für Rabby Wallet ist verfügbar. Klicken Sie hier, um zu erfahren, wie Sie manuell aktualisieren können.",
+          "content": "Ein neues Update für Lux Wallet ist verfügbar. Klicken Sie hier, um zu erfahren, wie Sie manuell aktualisieren können.",
           "okText": "Anleitung",
           "successTip": "Sie verwenden die neueste Version"
         },
@@ -893,8 +893,8 @@
       "tokenDetail": {
         "blockedTip": "Blockierte Token werden nicht in der Tokenliste angezeigt",
         "blocked": "Blockiert",
-        "selectedCustom": "Der Token ist nicht von Rabby gelistet. Sie haben ihn benutzerdefiniert zur Tokenliste hinzugefügt.",
-        "notSelectedCustom": "Der Token ist nicht von Rabby gelistet. Er wird zur Tokenliste hinzugefügt, wenn Sie ihn aktivieren.",
+        "selectedCustom": "Der Token ist nicht von Lux gelistet. Sie haben ihn benutzerdefiniert zur Tokenliste hinzugefügt.",
+        "notSelectedCustom": "Der Token ist nicht von Lux gelistet. Er wird zur Tokenliste hinzugefügt, wenn Sie ihn aktivieren.",
         "customized": "Benutzerdefiniert",
         "scamTx": "Betrugs-Transaktion",
         "txFailed": "Fehlgeschlagen",
@@ -1017,14 +1017,14 @@
           "answer": "Eine 12, 18 oder 24-Wort-Phrase, die zur Steuerung Ihrer Vermögenswerte verwendet wird."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Ist es sicher, sie in Rabby zu importieren?",
+          "question": "Ist es sicher, sie in Lux zu importieren?",
           "answer": "Ja, sie wird lokal in Ihrem Browser gespeichert und ist nur für Sie zugänglich."
         },
         "importError": "[CreateMnemonics] unerwarteter Schritt {{0}}",
         "importQuestion1": "Wenn ich meine Seed Phrase verliere, werden meine Vermögenswerte für immer verloren sein.",
         "importQuestion2": "Wenn ich meine Seed Phrase mit anderen teile, werden meine Vermögenswerte gestohlen.",
-        "importQuestion3": "Die Seed Phrase wird nur auf meinem Computer gespeichert, und Rabby hat keinen Zugriff darauf.",
-        "importQuestion4": "Wenn ich Rabby deinstalliere, ohne die Seed Phrase zu sichern, kann Rabby sie nicht für mich wiederherstellen.",
+        "importQuestion3": "Die Seed Phrase wird nur auf meinem Computer gespeichert, und Lux hat keinen Zugriff darauf.",
+        "importQuestion4": "Wenn ich Lux deinstalliere, ohne die Seed Phrase zu sichern, kann Lux sie nicht für mich wiederherstellen.",
         "riskTips": "Bevor Sie beginnen, lesen Sie bitte die folgenden Sicherheitstipps und behalten Sie sie im Kopf.",
         "showSeedPhrase": "Seed Phrase anzeigen",
         "backup": "Seed Phrase sichern",
@@ -1041,12 +1041,12 @@
       },
       "metamask": {
         "step1": "Seed Phrase oder Private Key aus MetaMask exportieren <br /> <1>Klicken Sie hier, um das Tutorial anzuzeigen <1/></1>",
-        "step2": "Seed Phrase oder Private Key in Rabby importieren",
+        "step2": "Seed Phrase oder Private Key in Lux importieren",
         "step3": "Import abgeschlossen, alle Ihre Vermögenswerte werden automatisch angezeigt",
         "how": "Wie importiere ich meinen MetaMask-Account?",
         "step": "Schritt",
         "importSeedPhrase": "Seed Phrase oder Private Key importieren",
-        "importSeedPhraseTips": "Wird nur lokal im Browser gespeichert. Rabby hat niemals Zugriff auf Ihre privaten Informationen.",
+        "importSeedPhraseTips": "Wird nur lokal im Browser gespeichert. Lux hat niemals Zugriff auf Ihre privaten Informationen.",
         "tips": "Tipp:",
         "tipsDesc": "Ihre Seed Phrase / Ihr Private Key gehören nicht zu MetaMask oder einer bestimmten Wallet; sie gehören nur Ihnen."
       },
@@ -1058,7 +1058,7 @@
           "answer": "Eine Zeichenfolge aus Buchstaben und Zahlen, die zur Steuerung Ihrer Vermögenswerte verwendet wird."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Ist es sicher, ihn in Rabby zu importieren?",
+          "question": "Ist es sicher, ihn in Lux zu importieren?",
           "answer": "Ja, er wird lokal in Ihrem Browser gespeichert und ist nur für Sie zugänglich."
         },
         "isItPossibleToImportKeystore": {
@@ -1070,8 +1070,8 @@
       "importedSuccessfully": "Erfolgreich importiert",
       "ledger": {
         "title": "Ledger verbinden",
-        "cameraPermissionTitle": "Erlauben Sie Rabby den Zugriff auf die Kamera",
-        "cameraPermission1": "Erlauben Sie Rabby den Zugriff auf die Kamera im Browser-Popup",
+        "cameraPermissionTitle": "Erlauben Sie Lux den Zugriff auf die Kamera",
+        "cameraPermission1": "Erlauben Sie Lux den Zugriff auf die Kamera im Browser-Popup",
         "allowRabbyPermissionsTitle": "Berechtigungen erteilen für:",
         "ledgerPermission1": "Verbindung zu einem HID-Gerät",
         "ledgerPermissionTip": "Bitte klicken Sie auf \"Erlauben\" unten und genehmigen Sie den Zugriff auf Ihren Ledger im folgenden Popup-Fenster.",
@@ -1121,14 +1121,14 @@
       },
       "hd": {
         "tooltip": {
-          "removed": "Die Adresse wurde aus Rabby entfernt",
-          "added": "Die Adresse wurde zu Rabby hinzugefügt",
+          "removed": "Die Adresse wurde aus Lux entfernt",
+          "added": "Die Adresse wurde zu Lux hinzugefügt",
           "connectError": "Die Verbindung wurde unterbrochen. Bitte aktualisieren Sie die Seite, um erneut zu verbinden.",
           "disconnected": "Konnte keine Verbindung zur Hardware-Wallet herstellen. Bitte versuchen Sie, erneut zu verbinden."
         },
         "waiting": "Warten",
         "clickToGetInfo": "Klicken Sie, um die Informationen auf der Chain abzurufen",
-        "addToRabby": "Zu Rabby hinzufügen",
+        "addToRabby": "Zu Lux hinzufügen",
         "basicInformation": "Grundinformation",
         "addresses": "Adressen",
         "loadingAddress": "Lade {{0}}/{{1}} Adressen",
@@ -1227,7 +1227,7 @@
         "manageBitbox02": "BitBox02 verwalten",
         "done": "Fertig",
         "addressesIn": "Adressen in {{0}}",
-        "addressesInRabby": "Adressen in Rabby{{0}}",
+        "addressesInRabby": "Adressen in Lux{{0}}",
         "qrCode": {
           "switch": {
             "title": "Wechseln Sie zu einem neuen {{0}}-Gerät",
@@ -1266,24 +1266,24 @@
     },
     "addToken": {
       "noTokenFound": "Kein Token gefunden",
-      "tokenSupported": "Token wurde in Rabby unterstützt",
+      "tokenSupported": "Token wurde in Lux unterstützt",
       "tokenCustomized": "Der aktuelle Token wurde bereits hinzugefügt",
       "tokenNotFound": "Token nicht auf dieser Smart Contract-Adresse gefunden",
-      "title": "Eigener Token zu Rabby hinzufügen",
+      "title": "Eigener Token zu Lux hinzufügen",
       "balance": "Guthaben",
       "tokenOnMultiChains": "Token-Adresse auf mehreren Chains. Bitte wählen Sie eine aus",
       "noTokenFoundOnThisChain": "Kein Token auf dieser Chain gefunden"
     },
     "switchChain": {
       "title": "",
-      "chainNotSupport": "Die angeforderte Blockchain wird von Rabby noch nicht unterstützt",
+      "chainNotSupport": "Die angeforderte Blockchain wird von Lux noch nicht unterstützt",
       "testnetTip": "Bitte aktivieren Sie unter \"Mehr\" die Option \"Testnets aktivieren\", bevor Sie sich mit Testnets verbinden",
-      "chainNotSupportYet": "Die angeforderte Blockchain wird von Rabby noch nicht unterstützt",
+      "chainNotSupportYet": "Die angeforderte Blockchain wird von Lux noch nicht unterstützt",
       "chainId": "Chain ID:",
       "unknownChain": "Unbekannte Chain",
       "requestsReceived": "1 Anfrage erhalten",
       "requestsReceivedPlural": "{{count}} Anfragen erhalten",
-      "requestRabbyToSupport": "Rabby um Unterstützung bitten"
+      "requestRabbyToSupport": "Lux um Unterstützung bitten"
     },
     "signText": {
       "title": "Text signieren",
@@ -1315,10 +1315,10 @@
       "listedBy": "Gelistet von",
       "sitePopularity": "Website-Popularität",
       "myMark": "Meine Markierung",
-      "flagByRabby": "Von Rabby markiert",
+      "flagByRabby": "Von Lux markiert",
       "flagByMM": "Von MetaMask markiert",
       "flagByScamSniffer": "Von ScamSniffer markiert",
-      "verifiedByRabby": "Von Rabby verifiziert",
+      "verifiedByRabby": "Von Lux verifiziert",
       "foundForbiddenRisk": "Verbotene Risiken gefunden. Die Verbindung ist blockiert.",
       "markAsTrustToast": "Als \"Vertrauenswürdig\" markieren",
       "markAsBlockToast": "Als \"Blockiert\" markieren",
@@ -1355,7 +1355,7 @@
       "backup-seed-phrase": "Seed Phrase sichern",
       "delete-address": "Adresse löschen",
       "delete-desc": "Bevor Sie löschen, beachten Sie bitte folgende Punkte, um zu verstehen, wie Sie Ihre Vermögenswerte schützen können.",
-      "direct-delete-desc": "Diese Adresse ist eine {{renderBrand}}-Adresse. Rabby speichert den Private Key oder die Seed Phrase für diese Adresse nicht. Sie können sie einfach löschen",
+      "direct-delete-desc": "Diese Adresse ist eine {{renderBrand}}-Adresse. Lux speichert den Private Key oder die Seed Phrase für diese Adresse nicht. Sie können sie einfach löschen",
       "admins": "Admins",
       "tx-requires": "Für jede Transaktion sind <2>{{num}}</2> Bestätigungen erforderlich",
       "edit-memo-title": "Adressnotiz bearbeiten",
@@ -1397,9 +1397,9 @@
     },
     "requestDebankTestnetGasToken": {
       "title": "DeBank Testnet Gas Token anfordern",
-      "mintedTip": "Inhaber des Rabby Badge können einmal täglich anfordern",
-      "notMintedTip": "Anfrage nur für Inhaber des Rabby Badge verfügbar",
-      "claimBadgeBtn": "Rabby Badge beanspruchen",
+      "mintedTip": "Inhaber des Lux Badge können einmal täglich anfordern",
+      "notMintedTip": "Anfrage nur für Inhaber des Lux Badge verfügbar",
+      "claimBadgeBtn": "Lux Badge beanspruchen",
       "time": "Pro Tag",
       "requested": "Sie haben heute angefragt",
       "requestBtn": "Anfrage"
@@ -1451,7 +1451,7 @@
       "clickToShowQr": "Klicken Sie hier, um den QR-Code des Private Keys anzuzeigen"
     },
     "ethSign": {
-      "alert": "Das Signieren mit 'eth_sign' kann zu Vermögensverlust führen. Aus Sicherheitsgründen unterstützt Rabby diese Methode NICHT."
+      "alert": "Das Signieren mit 'eth_sign' kann zu Vermögensverlust führen. Aus Sicherheitsgründen unterstützt Lux diese Methode NICHT."
     },
     "createPassword": {
       "title": "Passwort festlegen",
@@ -1466,7 +1466,7 @@
     "welcome": {
       "step1": {
         "title": "Zugriff auf alle Dapps",
-        "desc": "Rabby verbindet sich mit allen Dapps, die von MetaMask unterstützt werden"
+        "desc": "Lux verbindet sich mit allen Dapps, die von MetaMask unterstützt werden"
       },
       "step2": {
         "title": "Self-Custodial",
@@ -1617,7 +1617,7 @@
     }
   },
   "global": {
-    "appName": "Rabby Wallet",
+    "appName": "Lux Wallet",
     "appDescription": "Die bahnbrechende Wallet für Ethereum und alle EVM-Blockchains",
     "copied": "Kopiert",
     "confirm": "Bestätigen",

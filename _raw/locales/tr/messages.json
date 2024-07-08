@@ -36,7 +36,7 @@
       "gasPriceTitle": "Gas Ücreti (Gwei)",
       "maxPriorityFee": "Maksimum Öncelik Ücreti (Gwei)",
       "eip1559Desc1": "EIP-1559'u destekleyen zincirlerde, Öncelik Ücreti işleminizi işlemek için madencilere olan bahşiştir. Öncelik Ücretini düşürerek Gas ücretinden tasarruf edebilirsiniz, bu işlemin işlenmesinin daha fazla zaman almasına yol açabilir.",
-      "eip1559Desc2": "Rabby'de, Öncelik Ücreti (Bahşiş) = Maksimum Ücret - Baz Ücret olarak hesaplanır. Maksimum Öncelik Ücretini ayarladıktan sonra, Baz Ücret bundan düşülür ve geri kalan madencilere bahşiş olarak verilir.",
+      "eip1559Desc2": "Lux'de, Öncelik Ücreti (Bahşiş) = Maksimum Ücret - Baz Ücret olarak hesaplanır. Maksimum Öncelik Ücretini ayarladıktan sonra, Baz Ücret bundan düşülür ve geri kalan madencilere bahşiş olarak verilir.",
       "hardwareSupport1559Alert": "Donanım cüzdanı yazılımının EIP 1559'u destekleyen bir sürüme yükseltildiğinden emin olun",
       "gasLimitTitle": "Gas limiti",
       "recommendGasLimitTip": "Tahmini {{est}}. Mevcut {{current}}x, önerilen ",
@@ -105,7 +105,7 @@
         "trustValueLessThan": "Güven değeri ≤ {{value}}",
         "deployTimeLessThan": "Yayınlama süresi < {{value}} gün",
         "amountPopupTitle": "Miktar",
-        "flagByRabby": "Rabby tarafından işaretlendi",
+        "flagByRabby": "Lux tarafından işaretlendi",
         "contractTrustValueTip": "Güven değeri, bu kontrat için onaylanan ve kontrata maruz kalan toplam tokeni ifade eder. Düşük bir güven değeri, ya riski ya da 180 gün boyunca hareketsizliği gösterir."
       },
       "revokeTokenApprove": {
@@ -166,8 +166,8 @@
       "neverInteracted": "Daha önce hiç etkileşimde bulunulmadı",
       "transacted": "Daha önce işlem yapıldı",
       "neverTransacted": "Daha önce hiç işlem yapılmadı",
-      "fakeTokenAlert": "Bu, Rabby tarafından dolandırıcı olarak işaretlenmiş bir tokendir",
-      "scamTokenAlert": "Bu, Rabby'nin tespitine göre potansiyel olarak düşük kaliteli ve dolandırıcı bir tokendir",
+      "fakeTokenAlert": "Bu, Lux tarafından dolandırıcı olarak işaretlenmiş bir tokendir",
+      "scamTokenAlert": "Bu, Lux'nin tespitine göre potansiyel olarak düşük kaliteli ve dolandırıcı bir tokendir",
       "trusted": "Güvenilir",
       "blocked": "Engellendi",
       "noMark": "İşaret yok",
@@ -176,7 +176,7 @@
       "signTransactionOnChain": "{{chain}} İşlemi İmzala",
       "viewRaw": "Hamı Görüntüle",
       "unknownActionType": "Bilinmeyen işlem türü",
-      "sigCantDecode": "Bu imza Rabby tarafından çözülemez",
+      "sigCantDecode": "Bu imza Lux tarafından çözülemez",
       "nftCollection": "NFT Koleksiyonu",
       "floorPrice": "Taban fiyat",
       "contractAddress": "Kontrat adresi",
@@ -214,7 +214,7 @@
         "connected": "Bağlandı ve imzalamaya hazır",
         "howToSwitch": "Nasıl değiştirilir",
         "wrongAddressAlert": "Mobil cüzdanınızda farklı bir adrese geçtiniz. Lütfen mobil cüzdanınızda doğru adrese geçin",
-        "connectBeforeSign": "{{0}} Rabby'ye bağlı değil, imzalamadan önce lütfen bağlanın",
+        "connectBeforeSign": "{{0}} Lux'ye bağlı değil, imzalamadan önce lütfen bağlanın",
         "chainSwitched": "Mobil cüzdanınızda farklı bir zincire geçtiniz. Lütfen mobil cüzdanınızda {{0}}'e geçin",
         "latency": "Gecikme",
         "requestSuccessToast": "Talep başarıyla gönderildi.",
@@ -313,7 +313,7 @@
         "label": "İşlemler",
         "empty": {
           "title": "Henüz imzalanmış işlem yok",
-          "desc": "Rabby aracılığıyla imzalanan tüm işlemler burada listelenecektir."
+          "desc": "Lux aracılığıyla imzalanan tüm işlemler burada listelenecektir."
         },
         "common": {
           "unlimited": "sınırsız",
@@ -353,7 +353,7 @@
         "label": "Metin",
         "empty": {
           "title": "Henüz imzalanmış metin yok",
-          "desc": "Rabby aracılığıyla imzalanan tüm metinler burada listelenecektir."
+          "desc": "Lux aracılığıyla imzalanan tüm metinler burada listelenecektir."
         }
       }
     },
@@ -541,14 +541,14 @@
       "topUpChain": "Yükleme Zinciri",
       "Amount": "Miktar",
       "Continue": "Devam",
-      "InsufficientBalance": "Rabby'nin kontrat adresinde bu zincir için yeterli bakiye yok. Lütfen daha sonra tekrar deneyin.",
+      "InsufficientBalance": "Lux'nin kontrat adresinde bu zincir için yeterli bakiye yok. Lütfen daha sonra tekrar deneyin.",
       "hightGasFees": "Bu yükleme miktarı çok küçük, hedef ağ yüksek gaz ücretleri gerektiriyor.",
       "No_Tokens": "Token Yok",
       "InsufficientBalanceTips": "Yetersiz bakiye",
       "payment": "Gas Yükleme Ödemesi",
       "Loading_Tokens": "Tokenler Yükleniyor...",
       "Including-service-fee": "{{fee}} dahil hizmet ücreti",
-      "service-fee-tip": "Gas Yükleme hizmeti için Rabby, token değişimindeki kaybı ve yükleme için gas ücretini karşılamak zorundadır. Bu nedenle %20 hizmet ücreti alınır.",
+      "service-fee-tip": "Gas Yükleme hizmeti için Lux, token değişimindeki kaybı ve yükleme için gas ücretini karşılamak zorundadır. Bu nedenle %20 hizmet ücreti alınır.",
       "Confirm": "Onayla",
       "Select-from-supported-tokens": "Desteklenen tokenlerden seçin",
       "Value": "Değer",
@@ -583,7 +583,7 @@
       "amount-in": "Girdi miktarı {{symbol}}",
       "unlimited-allowance": "Sınırsız izin",
       "insufficient-balance": "Yetersiz bakiye",
-      "rabby-fee": "Rabby ücreti",
+      "rabby-fee": "Lux ücreti",
       "minimum-received": "Minimum alınacak",
       "there-is-no-fee-and-slippage-for-this-trade": "Bu alım-satım için ücret ve kayma yoktur",
       "approve-tips": "1.Onayla → 2.Takas",
@@ -595,7 +595,7 @@
       "this-exchange-is-not-enabled-to-trade-by-you": "Bu takas platformu sizin için ticarete açık değil.",
       "enable-it": "Etkinleştir",
       "this-token-pair-is-not-supported": "Bu token çifti desteklenmiyor",
-      "QuoteLessWarning": "Alınacak miktar Rabby işlem simülasyonundan tahmin edilir. Dex tarafından sağlanan teklif {{receive}}. Beklenen tekliften {{diff}} daha az alacaksınız.",
+      "QuoteLessWarning": "Alınacak miktar Lux işlem simülasyonundan tahmin edilir. Dex tarafından sağlanan teklif {{receive}}. Beklenen tekliften {{diff}} daha az alacaksınız.",
       "by-transaction-simulation-the-quote-is-valid": "İşlem simülasyonuna göre teklif geçerli",
       "wrap-contract": "Kontratı Sar",
       "directlySwap": "Akıllı kontratla {{symbol}} tokenlerini doğrudan sarın",
@@ -623,7 +623,7 @@
       "i-understand-and-accept-it": "Anlıyorum ve kabul ediyorum",
       "confirm": "Onayla",
       "tradingSettingTip1": "1. Etkinleştirildiğinde, doğrudan borsanın sözleşmesiyle etkileşimde bulunacaksınız",
-      "tradingSettingTip2": "2. Rabby, borsaların sözleşmesinden kaynaklanan risklerden sorumlu değildir",
+      "tradingSettingTip2": "2. Lux, borsaların sözleşmesinden kaynaklanan risklerden sorumlu değildir",
       "gas-fee": "Gas Ücreti: {{gasUsed}}",
       "estimate": "Tahmin:",
       "actual": "Gerçek:"
@@ -640,7 +640,7 @@
       "whitelisted-address": "Beyaz Listeye alınmış adres",
       "addressTypeTip": "{{type}} tarafından içe aktarıldı",
       "delete-desc": "Silmedan önce, varlıklarınızı nasıl koruyacağınızı anlamak için şu noktaları aklınızda bulundurun.",
-      "delete-checklist-1": "Bu adresi silersem, bu adresin Özel Anahtarının & Seed Phrase'inin de silineceğini ve Rabby'nin bunu kurtaramayacağını anlıyorum.",
+      "delete-checklist-1": "Bu adresi silersem, bu adresin Özel Anahtarının & Seed Phrase'inin de silineceğini ve Lux'nin bunu kurtaramayacağını anlıyorum.",
       "delete-checklist-2": "Özel Anahtarı veya Seed Phrase'i yedeklediğimi onaylıyorum ve şimdi silmeye hazırım.",
       "confirm": "Onayla",
       "cancel": "İptal",
@@ -683,9 +683,9 @@
         "comingSoon": "Çok Yakında",
         "soon": "Yakında",
         "refreshTheWebPageToTakeEffect": "Etkili olması için web sayfasını yenileyin",
-        "rabbyIsInUseAndMetamaskIsBanned": "Rabby kullanımda ve Metamask yasaklandı",
+        "rabbyIsInUseAndMetamaskIsBanned": "Lux kullanımda ve Metamask yasaklandı",
         "flip": "Çevir",
-        "metamaskIsInUseAndRabbyIsBanned": "MetaMask kullanımda ve Rabby yasaklandı",
+        "metamaskIsInUseAndRabbyIsBanned": "MetaMask kullanımda ve Lux yasaklandı",
         "transactionNeedsToSign": "işlem imzalanmalı",
         "transactionsNeedToSign": "işlemler imzalanmalı",
         "view": "Görüntüle",
@@ -706,7 +706,7 @@
         "metamaskTooltip": "Bu dApp ile MetaMask'ı kullanmayı tercih ediyorsunuz. Bu ayarı Ayarlar > MetaMask Tercih Edilen Dapps'ten istediğiniz zaman güncelleyin",
         "connected": "Bağlandı",
         "notConnected": "Bağlı değil",
-        "connectedDapp": "Rabby, şu anki Dapp'a bağlı değil. Bağlanmak için Dapp'ın web sayfasında bağlan butonunu bulup tıklayın.",
+        "connectedDapp": "Lux, şu anki Dapp'a bağlı değil. Bağlanmak için Dapp'ın web sayfasında bağlan butonunu bulup tıklayın.",
         "noDappFound": "Dapp bulunamadı",
         "disconnectAll": "Tüm Bağlantıları Kes",
         "disconnectRecentlyUsed": {
@@ -723,11 +723,11 @@
       "feedback": {
         "directMessage": {
           "content": "Doğrudan Mesaj",
-          "description": "Rabby Wallet Official ile DeBank'ta sohbet edin"
+          "description": "Lux Wallet Official ile DeBank'ta sohbet edin"
         },
         "proposal": {
           "content": "Öneri",
-          "description": "Rabby Wallet için DeBank'ta bir öneri sunun"
+          "description": "Lux Wallet için DeBank'ta bir öneri sunun"
         },
         "title": "Geri Bildirim"
       },
@@ -752,16 +752,16 @@
         }
       },
       "rabbyBadge": {
-        "imageLabel": "rabby rozeti",
-        "title": "İçin Rabby Rozeti Talep Et",
+        "imageLabel": "Lux rozeti",
+        "title": "İçin Lux Rozeti Talep Et",
         "enterClaimCode": "Talep kodunu girin",
-        "swapTip": "Önce Rabby Cüzdanı ile tanınmış bir dex'te takas yapmanız gerekiyor.",
+        "swapTip": "Önce Lux Cüzdanı ile tanınmış bir dex'te takas yapmanız gerekiyor.",
         "goToSwap": "Takasa Git",
         "claim": "Talep Et",
         "viewYourClaimCode": "Talep kodunuzu görüntüleyin",
         "noCode": "Bu adres için talep kodunu aktive etmediniz",
         "learnMoreOnDebank": "DeBank'ta daha fazla bilgi edinin",
-        "rabbyValuedUserNo": "Rabby Valued User No.{{num}}",
+        "rabbyValuedUserNo": "Lux Valued User No.{{num}}",
         "claimSuccess": "Talep Başarılı",
         "viewOnDebank": "DeBank'ta Görüntüle"
       },
@@ -794,19 +794,19 @@
         "save": "Kaydet",
         "pendingTransactionCleared": "Bekleyen işlem temizlendi",
         "clearPending": "Bekleyeni Temizle",
-        "clearPendingTip1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Rabby'deki işlemin durumunun zincir üzerindeki durumuyla eşleşmediği bazı durumlarda bu sorunu çözmenize yardımcı olabilir.",
+        "clearPendingTip1": "Bu, tüm bekleyen işlemlerinizi temizleyecektir. Lux'deki işlemin durumunun zincir üzerindeki durumuyla eşleşmediği bazı durumlarda bu sorunu çözmenize yardımcı olabilir.",
         "clearPendingTip2": "Bu, hesaplarınızdaki bakiyeleri değiştirmeyecek veya seed phrase dizinizi yeniden girmenizi gerektirmeyecektir. Tüm varlıklarınız ve hesap bilgileriniz güvende kalacaktır.",
         "autoLockTime": "Otomatik kilitlenme süresi",
-        "claimRabbyBadge": "Rabby Rozetini Talep Edin!",
+        "claimRabbyBadge": "Lux Rozetini Talep Edin!",
         "cancel": "İptal",
         "enableWhitelist": "Beyaz Listeyi Etkinleştir",
         "disableWhitelist": "Beyaz Listeyi Devre Dışı Bırak",
-        "enableWhitelistTip": "Etkinleştirildiğinde, Rabby kullanarak sadece beyaz listedeki adreslere varlık gönderebilirsiniz.",
+        "enableWhitelistTip": "Etkinleştirildiğinde, Lux kullanarak sadece beyaz listedeki adreslere varlık gönderebilirsiniz.",
         "disableWhitelistTip": "Devre dışı bırakıldığında herhangi bir adrese varlık gönderebilirsiniz",
         "warning": "Uyarı",
         "clearWatchAddressContent": "Tüm İzleme Modu adreslerini silmek istediğinizden emin misiniz?",
         "updateVersion": {
-          "content": "Rabby Cüzdanı için yeni bir güncelleme mevcut. Manuel olarak nasıl güncelleneceğini kontrol etmek için tıklayın.",
+          "content": "Lux Cüzdanı için yeni bir güncelleme mevcut. Manuel olarak nasıl güncelleneceğini kontrol etmek için tıklayın.",
           "okText": "Eğiticiye Bak",
           "successTip": "En güncel sürümü kullanıyorsunuz"
         },
@@ -837,8 +837,8 @@
       "tokenDetail": {
         "blockedTip": "Engellenen token, token listesinde gösterilmeyecek",
         "blocked": "Engellendi",
-        "selectedCustom": "Bu token Rabby tarafından listelenmemiş. Özel olarak token listesine eklediniz.",
-        "notSelectedCustom": "Bu token Rabby tarafından listelenmemiş. Aktif ederseniz token listesine eklenecek.",
+        "selectedCustom": "Bu token Lux tarafından listelenmemiş. Özel olarak token listesine eklediniz.",
+        "notSelectedCustom": "Bu token Lux tarafından listelenmemiş. Aktif ederseniz token listesine eklenecek.",
         "customized": "Özelleştirilmiş",
         "scamTx": "Sahte işlem",
         "txFailed": "Başarısız",
@@ -958,14 +958,14 @@
           "answer": "Varlıklarınızı kontrol etmek için kullanılan 12, 18 veya 24 kelimelik bir dizidir."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Rabby'e aktarmak güvenli mi?",
+          "question": "Lux'e aktarmak güvenli mi?",
           "answer": "Evet, yalnızca tarayıcınızda yerel olarak saklanır ve sadece sizin tarafınızdan erişilebilir."
         },
         "importError": "[CreateMnemonics] beklenmeyen adım {{0}}",
         "importQuestion1": "Seed Phrase'imi kaybedersem, varlıklarım sonsuza dek kaybolur.",
         "importQuestion2": "Seed Phrase'imi başkalarıyla paylaşırsam, varlıklarım çalınır.",
-        "importQuestion3": "Seed Phrase sadece bilgisayarımda saklanır ve Rabby'in buna erişimi yoktur.",
-        "importQuestion4": "Seed Phrase yedeğini almadan Rabby'yi kaldırırsam, Rabby bunu benim için geri alamaz.",
+        "importQuestion3": "Seed Phrase sadece bilgisayarımda saklanır ve Lux'in buna erişimi yoktur.",
+        "importQuestion4": "Seed Phrase yedeğini almadan Lux'yi kaldırırsam, Lux bunu benim için geri alamaz.",
         "riskTips": "Başlamadan önce, lütfen aşağıdaki güvenlik ipuçlarını okuyun ve aklınızda bulundurun.",
         "showSeedPhrase": "Seed Phrase'i Göster",
         "backup": "Seed Phrase'i Yedekleyin",
@@ -982,12 +982,12 @@
       },
       "metamask": {
         "step1": "MetaMask'tan seed phrase'i veya özel anahtarı dışa aktarın <1>Rehber <2/></1>",
-        "step2": "Seed phrase'i veya özel anahtarı Rabby'de içe aktarın",
+        "step2": "Seed phrase'i veya özel anahtarı Lux'de içe aktarın",
         "step3": "İçe aktarma tamamlandı ve tüm varlıklarınız otomatik olarak görünecek",
         "how": "MetaMask Hesabımı Nasıl İçe Aktarırım?",
         "step": "Adım",
         "importSeedPhrase": "Seed phrase'i veya özel anahtarı içe aktar",
-        "importSeedPhraseTips": "Sadece tarayıcıda yerel olarak saklanır. Rabby, özel bilgilerinize asla erişemez."
+        "importSeedPhraseTips": "Sadece tarayıcıda yerel olarak saklanır. Lux, özel bilgilerinize asla erişemez."
       },
       "privateKey": {
         "required": "Lütfen Özel Anahtarı girin",
@@ -997,7 +997,7 @@
           "answer": "Varlıklarınızı kontrol etmek için kullanılan harf ve sayılardan oluşan bir dizedir."
         },
         "isItSafeToImportItInRabby": {
-          "question": "Onu Rabby'e aktarmak güvenli mi?",
+          "question": "Onu Lux'e aktarmak güvenli mi?",
           "answer": "Evet, yalnızca tarayıcınızda yerel olarak saklanır ve sadece sizin tarafınızdan erişilebilir."
         },
         "isItPossibleToImportKeystore": {
@@ -1009,9 +1009,9 @@
       "importedSuccessfully": "Başarıyla İçe Aktarıldı",
       "ledger": {
         "title": "Ledger'a Bağlan",
-        "cameraPermissionTitle": "Rabby'nin kameraya erişimine izin ver",
-        "cameraPermission1": "Tarayıcı açılır penceresinde Rabby'nin kameraya erişimine izin ver",
-        "allowRabbyPermissionsTitle": "Rabby'nin aşağıdaki yetkilere sahip olmasını izin ver:",
+        "cameraPermissionTitle": "Lux'nin kameraya erişimine izin ver",
+        "cameraPermission1": "Tarayıcı açılır penceresinde Lux'nin kameraya erişimine izin ver",
+        "allowRabbyPermissionsTitle": "Lux'nin aşağıdaki yetkilere sahip olmasını izin ver:",
         "ledgerPermission1": "Bir HID cihazına bağlan",
         "ledgerPermissionTip": "Lütfen aşağıda \"İzin Ver\"i tıklayın ve sonraki açılır pencerede Ledger'a erişimi onaylayın.",
         "permissionsAuthorized": "İzinler Onaylandı",
@@ -1060,14 +1060,14 @@
       },
       "hd": {
         "tooltip": {
-          "removed": "Adres Rabby'den kaldırıldı",
-          "added": "Adres Rabby'ye eklendi",
+          "removed": "Adres Lux'den kaldırıldı",
+          "added": "Adres Lux'ye eklendi",
           "connectError": "Bağlantı durdu. Lütfen sayfayı yenileyerek tekrar bağlanmayı deneyin.",
           "disconnected": "Donanım cüzdanına bağlanılamıyor. Lütfen yeniden bağlanmayı deneyin."
         },
         "waiting": "Bekleniyor",
         "clickToGetInfo": "Zincirden bilgi almak için tıklayın",
-        "addToRabby": "Rabby'ye Ekle",
+        "addToRabby": "Lux'ye Ekle",
         "basicInformation": "Temel bilgiler",
         "addresses": "Adresler",
         "loadingAddress": "{{0}}/{{1}} adres yükleniyor",
@@ -1166,7 +1166,7 @@
         "manageBitbox02": "BitBox02'yi Yönet",
         "done": "Tamam",
         "addressesIn": "{{0}} içindeki Adresler",
-        "addressesInRabby": "Rabby'deki Adresler{{0}}",
+        "addressesInRabby": "Lux'deki Adresler{{0}}",
         "qrCode": {
           "switch": {
             "title": "Yeni bir {{0}} cihazına geçin",
@@ -1205,17 +1205,17 @@
     },
     "addToken": {
       "noTokenFound": "Token bulunamadı",
-      "tokenSupported": "Token, Rabby tarafından destekleniyor",
+      "tokenSupported": "Token, Lux tarafından destekleniyor",
       "tokenCustomized": "Mevcut token zaten özel olarak eklendi",
       "tokenNotFound": "Bu kontrat adresinden token bulunamadı",
-      "title": "Rabby'ye özel token ekleyin",
+      "title": "Lux'ye özel token ekleyin",
       "balance": "Bakiye",
       "tokenOnMultiChains": "Token adresi birden fazla zincirde bulunuyor. Lütfen bir tanesini seçin",
       "noTokenFoundOnThisChain": "Bu zincirde token bulunamadı"
     },
     "switchChain": {
       "title": "",
-      "chainNotSupport": "İstenen zincir Rabby tarafından henüz desteklenmiyor",
+      "chainNotSupport": "İstenen zincir Lux tarafından henüz desteklenmiyor",
       "testnetTip": "Testnet'lere bağlanmadan önce \"Daha Fazla\" altında \"Testnet'leri Etkinleştir\" seçeneğini açın"
     },
     "signText": {
@@ -1248,10 +1248,10 @@
       "listedBy": "Listeleyen",
       "sitePopularity": "Site Popülerliği",
       "myMark": "Benim İşaretim",
-      "flagByRabby": "Rabby Tarafından İşaretlendi",
+      "flagByRabby": "Lux Tarafından İşaretlendi",
       "flagByMM": "MetaMask Tarafından İşaretlendi",
       "flagByScamSniffer": "ScamSniffer Tarafından İşaretlendi",
-      "verifiedByRabby": "Rabby Tarafından Doğrulandı",
+      "verifiedByRabby": "Lux Tarafından Doğrulandı",
       "foundForbiddenRisk": "Yasaklı riskler bulundu. Bağlantı engellendi.",
       "markAsTrustToast": "\"Güvenilir\" olarak işaretle",
       "markAsBlockToast": "\"Engellenmiş\" olarak işaretle",
@@ -1288,7 +1288,7 @@
       "backup-seed-phrase": "Seed Phrase'i Yedekle",
       "delete-address": "Adresi Sil",
       "delete-desc": "Silmeden önce, varlıklarınızı nasıl koruyacağınızı anlamak için aşağıdaki noktaları göz önünde bulundurun.",
-      "direct-delete-desc": "Bu adres bir {{renderBrand}} adresidir, Rabby bu adres için özel anahtarınızı veya seed phrase'inizi saklamaz, sadece silebilirsiniz",
+      "direct-delete-desc": "Bu adres bir {{renderBrand}} adresidir, Lux bu adres için özel anahtarınızı veya seed phrase'inizi saklamaz, sadece silebilirsiniz",
       "admins": "Yöneticiler",
       "tx-requires": "Herhangi bir işlem için <2>{{num}}</2> onay gereklidir",
       "edit-memo-title": "Adres notunu düzenle",
@@ -1330,9 +1330,9 @@
     },
     "requestDebankTestnetGasToken": {
       "title": "DeBank Testnet Gas Tokeni İste",
-      "mintedTip": "Rabby Rozeti sahipleri günde bir kez istekte bulunabilir",
-      "notMintedTip": "Sadece Rabby Rozeti sahipleri talep edebilir",
-      "claimBadgeBtn": "Rabby Rozetini Talep Et",
+      "mintedTip": "Lux Rozeti sahipleri günde bir kez istekte bulunabilir",
+      "notMintedTip": "Sadece Lux Rozeti sahipleri talep edebilir",
+      "claimBadgeBtn": "Lux Rozetini Talep Et",
       "time": "Günde bir kez",
       "requested": "Bugün talepte bulundunuz",
       "requestBtn": "İstek"
@@ -1374,7 +1374,7 @@
       "clickToShowQr": "Özel anahtar QR Kodunu göstermek için tıklayın"
     },
     "ethSign": {
-      "alert": "'eth_sign' ile imzalama varlık kaybına yol açabilir. Güvenliğiniz için             Rabby bu yöntemi desteklememektedir."
+      "alert": "'eth_sign' ile imzalama varlık kaybına yol açabilir. Güvenliğiniz için             Lux bu yöntemi desteklememektedir."
     },
     "createPassword": {
       "title": "Şifre Oluştur",
@@ -1389,7 +1389,7 @@
     "welcome": {
       "step1": {
         "title": "Tüm Dapp'lara Eriş",
-        "desc": "Rabby, MetaMask'ın desteklediği tüm Dapp'lere bağlanır"
+        "desc": "Lux, MetaMask'ın desteklediği tüm Dapp'lere bağlanır"
       },
       "step2": {
         "title": "Kendi Gözetiminiz Altında",
@@ -1540,7 +1540,7 @@
     }
   },
   "global": {
-    "appName": "Rabby Wallet",
+    "appName": "Lux Wallet",
     "appDescription": "Ethereum ve tüm EVM zincirleri için oyun değiştirici cüzdan",
     "copied": "Kopyalandı",
     "confirm": "Onayla",
