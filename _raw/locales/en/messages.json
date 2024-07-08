@@ -1748,8 +1748,8 @@
     },
     "welcome": {
       "step1": {
-        "title": "Access All Dapps",
-        "desc": "Rabby connects to all Dapps that MetaMask supports"
+        "title": "Welcome to Lux",
+        "desc": "Lux connects to all Dapps that MetaMask supports"
       },
       "step2": {
         "title": "Self-custodial",
